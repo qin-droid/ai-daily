@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<channel>
+  <title>AI 日报</title>
+  <link>https://ai-daily-bot.github.io/ai-daily/</link>
+  <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
+  <language>zh-CN</language>
+  <lastBuildDate>Mon, 09 Jun 2026 00:00:00 +0800</lastBuildDate>
+  <atom:link href="https://ai-daily-bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>AI 日报上线！每日自动推送 AI 资讯与 GitHub 趋势</title>
+    <link>https://ai-daily-bot.github.io/ai-daily/articles/2026-06-09-welcome.html</link>
+    <guid>https://ai-daily-bot.github.io/ai-daily/articles/2026-06-09-welcome.html</guid>
+    <pubDate>Mon, 09 Jun 2026 00:00:00 +0800</pubDate>
+    <description>这是 AI 日报的第一期。从今天开始，每天 7:00 自动汇总全球 AI 新闻和 GitHub 热门项目。</description>
+  </item>
+  <item>
+    <title>GitHub 趋势：本周最值得关注的 10 个开源项目</title>
+    <link>https://ai-daily-bot.github.io/ai-daily/articles/2026-06-09-trending.html</link>
+    <guid>https://ai-daily-bot.github.io/ai-daily/articles/2026-06-09-trending.html</guid>
+    <pubDate>Mon, 09 Jun 2026 00:00:00 +0800</pubDate>
+    <description>精选本周 GitHub 趋势榜上最值得 Star 的项目。</description>
+  </item>
+</channel>
+</rss>

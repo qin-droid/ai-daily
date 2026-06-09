@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 日报 · 每日AI资讯与趋势</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text2: #6b7280;
+  --border: #e5e7eb;
+  --accent: #0d9488;
+  --accent2: #0a1628;
+  --tag-bg: #f0fdfa;
+  --radius: 16px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0f1a;
+    --card: #111827;
+    --text: #e5e7eb;
+    --text2: #9ca3af;
+    --border: #1f2937;
+    --accent: #14b8a6;
+    --accent2: #0d9488;
+    --tag-bg: #0f172a;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', 'Noto Sans SC', -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+/* Header */
+.header {
+  background: var(--card);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(12px);
+  background: rgba(255,255,255,0.9);
+}
+@media (prefers-color-scheme: dark) {
+  .header { background: rgba(17,24,39,0.9); }
+}
+.header-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.header-logo { font-size: 24px; }
+.header-title {
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), #3b82f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header-sub {
+  font-size: 13px;
+  color: var(--text2);
+  margin-left: auto;
+}
+/* Content */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 48px 0 32px;
+}
+.hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.hero p {
+  font-size: 16px;
+  color: var(--text2);
+  max-width: 500px;
+  margin: 0 auto;
+}
+/* Stats bar */
+.stats {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin: 24px 0 40px;
+  flex-wrap: wrap;
+}
+.stat-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 24px;
+  text-align: center;
+  min-width: 120px;
+}
+.stat-num {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--accent);
+}
+.stat-label {
+  font-size: 13px;
+  color: var(--text2);
+  margin-top: 4px;
+}
+/* Article list */
+.articles { display: flex; flex-direction: column; gap: 16px; }
+.article-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  transition: all 0.2s;
+  cursor: default;
+}
+.article-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+}
+.article-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: var(--text2);
+  flex-wrap: wrap;
+}
+.article-tag {
+  background: var(--tag-bg);
+  color: var(--accent);
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid transparent;
+}
+.article-tag.hot { background: #fef2f2; color: #dc2626; border-color: #fecaca; }
+.article-tag.trend { background: #eff6ff; color: #2563eb; border-color: #bfdbfe; }
+@media (prefers-color-scheme: dark) {
+  .article-tag.hot { background: #1f0a0a; color: #f87171; border-color: #3b1a1a; }
+  .article-tag.trend { background: #0a1628; color: #60a5fa; border-color: #1a2a4a; }
+}
+.article-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.article-desc {
+  font-size: 14px;
+  color: var(--text2);
+  line-height: 1.6;
+}
+.article-footer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--text2);
+}
+/* Skeleton loading */
+.skeleton {
+  background: linear-gradient(90deg, var(--border) 25%, transparent 50%, var(--border) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+@keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+.skeleton-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+.skeleton-line { height: 14px; margin-bottom: 10px; width: 80%; }
+.skeleton-line:last-child { width: 60%; }
+.skeleton-line.short { width: 30%; }
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text2);
+}
+.empty-state .icon { font-size: 48px; margin-bottom: 12px; }
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text2);
+  font-size: 13px;
+  border-top: 1px solid var(--border);
+  margin-top: 48px;
+}
+.footer a { color: var(--accent); text-decoration: none; }
+/* RSS badge */
+.rss-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #f97316;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 8px;
+}
+/* Responsive */
+@media (max-width: 640px) {
+  .hero h1 { font-size: 28px; }
+  .container { padding: 20px 16px; }
+  .article-card { padding: 16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <span class="header-logo">🤖</span>
+    <span class="header-title">AI 日报</span>
+    <span class="header-sub">每日 AI 资讯 + GitHub 趋势</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="hero">
+    <h1>AI 资讯早知道</h1>
+    <p>每日自动汇总全球 AI 新闻与 GitHub 热门项目，让你不错过任何重要动态</p>
+    <div class="stats" id="stats">
+      <div class="stat-card"><div class="stat-num" id="totalArticles">--</div><div class="stat-label">总文章</div></div>
+      <div class="stat-card"><div class="stat-num" id="todayArticles">--</div><div class="stat-label">今日更新</div></div>
+      <div class="stat-card"><div class="stat-num" id="totalSources">--</div><div class="stat-label">追踪来源</div></div>
+    </div>
+  </div>
+
+  <div class="articles" id="articles">
+    <!-- articles loaded by JS -->
+    <div class="skeleton-card">
+      <div class="skeleton skeleton-line short"></div>
+      <div class="skeleton skeleton-line"></div>
+      <div class="skeleton skeleton-line"></div>
+      <div class="skeleton skeleton-line" style="width:50%"></div>
+    </div>
+    <div class="skeleton-card">
+      <div class="skeleton skeleton-line short"></div>
+      <div class="skeleton skeleton-line"></div>
+      <div class="skeleton skeleton-line"></div>
+      <div class="skeleton skeleton-line" style="width:50%"></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>🤖 <a href="https://github.com/AI-Daily-Bot/ai-daily" target="_blank">AI 日报</a> · 每日 7:00 自动更新</p>
+  <p style="margin-top:4px">内容由 AI 自动汇总，仅供参考 · <a href="#" onclick="alert('RSS: '+window.location.origin+'/feed.xml');return false">📡 RSS</a></p>
+</div>
+
+<script>
+const ARTICLES = [
+  // 示例数据 — 每天 cron 自动更新 articles.json 即可
+  {
+    "date": "2026-06-09",
+    "title": "AI 日报上线！每日自动推送 AI 资讯与 GitHub 趋势",
+    "desc": "这是 AI 日报的第一期。从今天开始，每天 7:00 自动汇总全球 AI 新闻和 GitHub 热门项目，让你每天早上用 5 分钟掌握行业动态。",
+    "tag": "公告",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#"
+  },
+  {
+    "date": "2026-06-09",
+    "title": "GitHub 趋势：本周最值得关注的 10 个开源项目",
+    "desc": "从 AI 框架到开发者工具，精选本周 GitHub 趋势榜上最值得 Star 的项目，附一句话点评。",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#"
+  }
+];
+
+function render() {
+  const container = document.getElementById('articles');
+  const total = document.getElementById('totalArticles');
+  const today = document.getElementById('todayArticles');
+  const sources = document.getElementById('totalSources');
+
+  if (!ARTICLES || ARTICLES.length === 0) {
+    container.innerHTML = '<div class="empty-state"><div class="icon">📭</div><p>暂无文章，请稍后再来</p></div>';
+    return;
+  }
+
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayCount = ARTICLES.filter(a => a.date === todayStr).length;
+  const sourceSet = new Set(ARTICLES.map(a => a.source).filter(Boolean));
+
+  total.textContent = ARTICLES.length;
+  today.textContent = todayCount;
+  sources.textContent = sourceSet.size || '3+';
+
+  container.innerHTML = ARTICLES.map(a => `
+    <div class="article-card">
+      <div class="article-meta">
+        <span>${a.date || ''}</span>
+        ${a.tag ? `<span class="article-tag ${a.tagType || ''}">${a.tag}</span>` : ''}
+        ${a.source ? `<a href="${a.sourceUrl || '#'}" style="color:var(--text2);text-decoration:none;margin-left:auto" target="_blank">${a.source}</a>` : ''}
+      </div>
+      <div class="article-title">${a.title}</div>
+      <div class="article-desc">${a.desc}</div>
+      ${a.sourceUrl && a.sourceUrl !== '#' ? `<div class="article-footer"><a href="${a.sourceUrl}" target="_blank" style="color:var(--accent);text-decoration:none;font-weight:500">阅读原文 →</a></div>` : ''}
+    </div>
+  `).join('');
+}
+
+render();
+</script>
+</body>
+</html>

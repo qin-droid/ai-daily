@@ -1,0 +1,22 @@
+[
+  {
+    "date": "2026-06-09",
+    "title": "AI 日报上线！每日自动推送 AI 资讯与 GitHub 趋势",
+    "desc": "这是 AI 日报的第一期。从今天开始，每天 7:00 自动汇总全球 AI 新闻和 GitHub 热门项目，让你每天早上用 5 分钟掌握行业动态。",
+    "tag": "公告",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-09-welcome.html"
+  },
+  {
+    "date": "2026-06-09",
+    "title": "GitHub 趋势：本周最值得关注的 10 个开源项目",
+    "desc": "从 AI 框架到开发者工具，精选本周 GitHub 趋势榜上最值得 Star 的项目，附一句话点评。",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-09-trending.html"
+  }
+]
