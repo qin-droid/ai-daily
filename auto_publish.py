@@ -20,9 +20,9 @@ from pathlib import Path
 
 # ── config ──────────────────────────────────────────────────────────
 
-BLOG_DIR = Path(r"C:\Users\Administrator\Desktop\ai-daily-blog")
-AI_NEWS_DIR = Path(r"C:\Users\Administrator\Desktop\每日AI资讯")
-GITHUB_TREND_DIR = Path(r"C:\Users\Administrator\Desktop\GitHub趋势日报")
+BLOG_DIR = Path(r"D:\AI-Workspace\ai-daily-blog")
+AI_NEWS_DIR = Path(r"D:\AI-Workspace\每日AI资讯")
+GITHUB_TREND_DIR = Path(r"D:\AI-Workspace\GitHub趋势日报")
 ARTICLES_DIR = BLOG_DIR / "articles"
 
 GITHUB_USER = "AI-Daily-Bot"  # placeholder — update with real username

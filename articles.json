@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-10",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-10-ai-news.html"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "GitHub 趋势日报 | 2026-06-10",
+    "desc": "---",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-10-github-trending.html"
+  },
+  {
     "date": "2026-06-09",
     "title": "AI 日报上线！每日自动推送 AI 资讯与 GitHub 趋势",
     "desc": "这是 AI 日报的第一期。从今天开始，每天 7:00 自动汇总全球 AI 新闻和 GitHub 热门项目，让你每天早上用 5 分钟掌握行业动态。",
