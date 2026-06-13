@@ -5,8 +5,15 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Sat, 13 Jun 2026 00:01:03 +0800</lastBuildDate>
+  <lastBuildDate>Sat, 13 Jun 2026 12:04:55 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🚀 GitHub 开源精选 | 2026-06-13</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-opensource.html</guid>
+    <pubDate>Sat, 13 Jun 2026 00:00:00 +0800</pubDate>
+    <description>本周最值得关注的3个开源项目：Superpowers (AI Agent技能框架)、Apple Container (苹果容器运行时)、PowerToys (微软效率神器)</description>
+  </item>
   <item>
     <title>GitHub 趋势日报 | 2026-06-13</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-trending.html</link>

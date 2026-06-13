@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-06-13",
+    "title": "🚀 GitHub 开源精选 | 2026-06-13",
+    "desc": "本周最值得关注的3个开源项目：Superpowers (AI Agent技能框架)、Apple Container (苹果容器运行时)、PowerToys (微软效率神器)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-13-github-opensource.html"
+  },
+  {
+    "date": "2026-06-13",
     "title": "GitHub 趋势日报 | 2026-06-13",
     "desc": "总计 **13** 个热门仓库",
     "tag": "GitHub 趋势",
