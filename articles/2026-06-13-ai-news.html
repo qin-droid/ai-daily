@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📰 每日AI资讯简报 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>📰 每日AI资讯简报</h1>
+  <div class="date">2026-06-13</div>
+  <div class="content">
+# 📰 每日AI资讯简报
+
+**日期**：2026年6月13日（周六）
+**数据来源**：22篇文章，来自 7 个来源
+**覆盖范围**：最近72小时（6月10日–13日）
+**来源**：VentureBeat AI · TechCrunch · The Verge · MIT Technology Review · Google DeepMind · 多来源web搜索
+
+---
+
+## 🔥 重大发布
+
+### Claude Fable 5 正式发布
+
+**摘要**：Anthropic 于6月9日发布最新旗舰模型 Claude Fable 5，成为当前最新的前沿AI模型。
+
+**关键要点**：
+- 作为 Claude 系列最新迭代版本，定位为 Anthropic 最强模型
+- 发布后在多个评测中与 GPT-5.5 展开激烈竞争
+- AI Release Tracker 将其列为2026年6月最新前沿模型
+
+**影响力评估**：作为 Anthropic 年度最重要的发布，Claude Fable 5 将与 GPT-5.5 和 Gemini 3.5 在高端企业市场展开正面竞争。
+
+📅 **来源**：AI Release Tracker · 2026年6月9日
+🔗 **链接**：https://aireleasetracker.com/latest
+
+---
+
+### GPT-5.5 在全新 "Agents' Last Exam" 基准测试中击败 Claude Fable 5
+
+**摘要**：在极具挑战性的新基准测试 "Agents' Last Exam" 中，GPT-5.5 意外击败新发布的 Claude Fable 5，展现 OpenAI 模型在复杂多步骤指令遵循上的优势。
+
+**关键要点**：
+- GPT-5.5 在严格遵循多步骤复杂提示方面显著优于 Claude Fable 5
+- 该结果与近期第三方分析一致——OpenAI 模型在指令精确执行上当前领先
+- 这场"意外逆袭"引发了对两大前沿模型实际能力的广泛讨论
+
+**影响力评估**：在"代理时代"，指令遵循精度直接决定AI代理的可靠性，这一结果可能影响企业选型决策。
+
+📅 **来源**：VentureBeat（Carl Franzen）· 2026年6月10日
+🔗 **链接**：https://venturebeat.com/ai/surprise-upset-gpt-5-5-beats-claude-fable-5-on-brutal-new-agents-last-exam-benchmark/
+
+---
+
+### Google DiffusionGemma：文本生成速度提升4倍
+
+**摘要**：Google 发布 DiffusionGemma，一种基于扩散模型的文本生成技术，可以一次性并行生成256个 token，并在生成过程中自我纠错。
+
+**关键要点**：
+- 一次性写入整块 token 而非逐字生成，速度达传统自回归模型的4倍
+- 在消费级 GPU 上即可快速运行，降低了部署门槛
+- 在开放性任务上表现稍弱，但在结构化文本场景中优势明显
+
+**影响力评估**：如果扩散模型路线可行，可能从根本上改变 LLM 推理的硬件需求和成本结构。
+
+📅 **来源**：VentureBeat（Sean Michael Kerner）· 2026年6月11日
+🔗 **链接**：https://venturebeat.com/ai/googles-diffusiongemma-generates-256-tokens-in-parallel-and-self-corrects-as-it-goes/
+
+---
+
+### Google Gemini 3.5 Live Translate：流利自然的实时语音翻译
+
+**摘要**：Google DeepMind 推出 Gemini 3.5 Live Translate，实现端到端的实时语音翻译，无需先转文字再翻译。
+
+**关键要点**：
+- 支持流利自然的语音到语音实时翻译
+- 保持原始语音的情感、语调和节奏特征
+- 基于 Gemini 3.5 的多模态能力构建
+
+**影响力评估**：标志着 AI 翻译从"文字到文字"迈向"语音到语音"的新阶段，对国际化沟通场景影响深远。
+
+📅 **来源**：Google DeepMind Blog · 2026年6月
+🔗 **链接**：https://deepmind.google/discover/blog
+
+---
+
+### Gemma 4 12B：Google 发布统一多模态开源模型
+
+**摘要**：Google 推出 Gemma 4 12B，一个无需编码器的统一多模态开源模型，支持文本和视觉任务。
+
+**关键要点**：
+- 采用无编码器架构，统一处理文本和视觉输入
+- 12B 参数规模，面向开发者和研究者开放
+- 作为 Gemma 系列最新成员，延续开源策略
+
+**影响力评估**：开源多模态模型的竞争日趋激烈，Gemma 4 12B 为中小团队提供了高质量的多模态选择。
+
+📅 **来源**：Google DeepMind Blog · 2026年6月
+🔗 **链接**：https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/
+
+---
+
+## 🔬 研究与论文
+
+### Google 提出"忠实不确定性"：让 LLM 用最佳猜测替代幻觉
+
+**摘要**：Google Research 提出一种元认知技术，使 LLM 能够在不确定时表达"我的最佳猜测是……"，而非在幻觉和沉默之间二选一，从而大幅提升实用性。
+
+**关键要点**：
+- 重新定义"幻觉"为"自信错误"——错误不可怕，不加限定地自信才是有害的
+- 量化了"实用性税"：将错误率从25%降至5%的严格控制，会迫使丢弃52%的正确回答
+- Yona 指出"引导悖论"：训练模型表达不确定性的标注数据是静态的，但模型的知识边界随训练动态变化
+
+**影响力评估**：这项研究直面企业 AI 部署的核心困境——拒绝回答虽安全但伤害实用性，"忠实不确定性"为企业提供了第三条路径。
+
+📅 **来源**：VentureBeat（Ben Dickson）· 2026年6月12日
+🔗 **链接**：https://venturebeat.com/ai/google-researchers-introduce-faithful-uncertainty-allowing-llms-to-offer-best-guesses-instead-of-hallucinations/
+
+---
+
+### Kimi K2.7-Code 将思考 token 减少30%
+
+**摘要**：Kimi 发布 K2.7-Code，声称将编码推理的"思考 token"减少30%。但开发者社区的测试显示其基准测试结果并不完全可靠。
+
+**关键要点**：
+- 直接编写代码而非封装库，风格更"诚实"
+- 两个核心 kernel 测试失败，MoE 结果相比 K2.6 倒退
+- 社区开发者质疑其基准测试成绩的真实性
+
+**影响力评估**：反映了当前AI编码工具领域"基准测试内卷"现象——宣传数字与实际体验存在差距。
+
+📅 **来源**：VentureBeat（Sean Michael Kerner）· 2026年6月12日
+🔗 **链接**：https://venturebeat.com/ai/kimi-k2-7-code-cuts-thinking-tokens-30/
+
+---
+
+### Microsoft SkillOpt：开源AI代理技能自动优化框架
+
+**摘要**：Microsoft 发布开源工具 SkillOpt，无需修改模型权重即可自动优化 AI 代理的技能表现，将深度学习训练方法引入提示词工程。
+
+**关键要点**：
+- 将数学验证的文本优化替代手工调整提示词的传统方法
+- 完全开源，降低代理系统开发和维护成本
+- 将"深度学习纪律"带入AI代理的技能管理
+
+**影响力评估**：随着 AI 代理在企业中大规模部署，自动化技能优化成为必需品而非奢侈品。
+
+📅 **来源**：VentureBeat（Ben Dickson）· 2026年6月11日
+🔗 **链接**：https://venturebeat.com/ai/microsofts-open-source-skillopt-automatically-upgrades-ai-agent-skills-without-touching-model-weights/
+
+---
+
+### 研究者以约 $1,500 从头训练基础模型
+
+**摘要**：一组研究者声称仅花费约 $1,500 从头训练了一个 1B 参数的推理模型，在关键基准测试上匹配了远大于此的 LLM，无需互联网规模的数据。
+
+**关键要点**：
+- 1B 推理模型在关键基准上与更大模型匹敌
+- 证明了小型模型通过精心的数据策划和训练策略也能取得出色效果
+- 可能降低 AI 研究的准入门槛
+
+**影响力评估**：如果可复现，将颠覆"越大越好"的叙事，为资源有限的团队开辟新路径。
+
+📅 **来源**：VentureBeat（Ben Dickson）· 2026年6月10日
+🔗 **链接**：https://venturebeat.com/ai/researchers-say-they-trained-a-foundation-model-from-scratch-for-about-1500/
+
+---
+
+### 小米 MiMo Code：在超长任务中击败 Claude Code
+
+**摘要**：小米发布开源 AI 编码工具 MiMo Code，在 200+ 步骤的超长任务中表现优于 Claude Code，其持久记忆系统解决了代理开发中的真实痛点。
+
+**关键要点**：
+- 持久记忆系统能够跨长任务维持上下文
+- 在超长多步骤任务（200+步）上超越 Claude Code
+- 开源发布，开发者可直接使用和定制
+
+**影响力评估**：中国科技公司在 AI 编码工具赛道的竞争力正在快速提升，开源策略加速扩散。
+
+📅 **来源**：VentureBeat（Carl Franzen）· 2026年6月11日
+🔗 **链接**：https://venturebeat.com/ai/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code/
+
+---
+
+### Google DeepMind 关注多智能体交互风险
+
+**摘要**：Google DeepMind 公开呼吁更多科学家研究多智能体系统的潜在风险，担忧当数百万 AI 代理开始交互时可能出现不可预见的涌现行为。
+
+**关键要点**：
+- DeepMind 投资多智能体 AI 安全研究
+- 关注大规模代理交互的涌现风险
+- 呼吁学术界加强该方向的研究投入
+
+**影响力评估**：作为 AI 安全领域的领导者，DeepMind 的公开呼吁可能推动该方向获得更多研究资源和政策关注。
+
+📅 **来源**：MIT Technology Review · 2026年6月
+🔗 **链接**：https://www.technologyreview.com/topic/artificial-intelligence/
+
+---
+
+## 💰 行业与商业
+
+### Jeff Bezos 的 Prometheus 融资 $120亿，打造"通用人工工程师"
+
+**摘要**：Jeff Bezos 的 AI 初创公司 Prometheus 完成 $120 亿融资，目标是构建面向物理世界的"通用人工工程师"（Artificial General Engineer）。
+
+**关键要点**：
+- 融资规模达 $120 亿，为近期 AI 领域最大单笔融资之一
+- 定位为物理世界的通用工程 AI，区别于纯软件代理
+- 反映了超级资本对"AI + 物理世界"方向的高度信心
+
+**影响力评估**：与 SpaceX IPO 同周发生，Jeff Bezos 在物理世界 AI 的布局可能重塑制造业和建筑业。
+
+📅 **来源**：TechCrunch（Marina Temkin）· 2026年6月12日
+🔗 **链接**：https://techcrunch.com/2026/06/12/jeff-bezos-prometheus-raises-12b/
+
+---
+
+### Mistral 传闻以 €200亿估值融资 €30亿
+
+**摘要**：法国 AI 独角兽 Mistral 被传出正以约 €200亿估值进行新一轮融资，规模达 €30亿。
+
+**关键要点**：
+- 融资规模为欧洲 AI 公司历史之最
+- 估值从上一轮大幅跃升，反映市场对欧洲 AI 冠军的期待
+- 若属实，将进一步加剧美欧 AI 竞争格局
+
+**影响力评估**：Mistral 的高估值融资将巩固其作为"欧洲 OpenAI"的地位，同时加剧全球 AI 人才争夺战。
+
+📅 **来源**：TechCrunch（Ram Iyer）· 2026年6月13日
+🔗 **链接**：https://techcrunch.com/2026/06/13/mistral-rumored-raising-e3b-at-e20b-valuation/
+
+---
+
+### 6月初 AI 创业公司融资潮：Ramp、PhysicsX、Suno、NewLimit 等
+
+**摘要**：2026年6月初，多家 AI 创业公司完成大额融资，包括 Ramp（$7.5亿）、PhysicsX（$3亿）、Suno（$4亿）、NewLimit（$4.35亿）等，总金额超 $20亿。
+
+**关键要点**：
+- **Ramp**：AI 驱动的支出管理和金融运营，融资 $7.5亿
+- **PhysicsX**：AI 物理仿真与工程，Temasek 领投 $3亿 Series C
+- **Suno**：AI 音乐生成，BOND 投资 $4亿 Series D
+- **NewLimit**：AI 生物科技与长寿研究，Founders Fund 投资 $4.35亿
+
+**影响力评估**：AI 投资热度在2026年下半年初持续高涨，资金向垂直行业应用和基础设施两个方向集中。
+
+📅 **来源**：VFuture Media / AI Startup Funding · 2026年6月上旬
+🔗 **链接**：https://af.net/realtime/ai-startup-funding-june-2026-ramp-physicsx-suno-raise-hundreds-of-millions
+
+---
+
+### SpaceX IPO 与 AI 热潮：Anthropic、OpenAI 夏季上市预期
+
+**摘要**：SpaceX 以 $135/股定价完成史上最大 IPO，Elon Musk 成为世界首位万亿富翁。与此同时，市场热传 Anthropic 和 OpenAI 也将在2026年夏季上市。
+
+**关键要点**：
+- SpaceX IPO 定价 $135/股，开盘 $150/股，市值超 $2万亿
+- Anthropic 和 OpenAI 的 IPO 预期推动 AI 行业成为资本市场焦点
+- "MANGOS"（Meta/Apple/Netflix/Google/OpenAI/SpaceX）成为新的科技七巨头概念
+
+**影响力评估**：AI 公司的相继上市将重塑全球科技股格局，也为行业带来更多公众监督。
+
+📅 **来源**：TechCrunch / The Verge · 2026年6月12-13日
+🔗 **链接**：https://techcrunch.com/category/artificial-intelligence/
+
+---
+
+### Meta AI 团队被曝内部"高压苦力营"
+
+**摘要**：TechCrunch 报道 Meta 刚成立数月的 AI 部门被内部工程师描述为"摧毁灵魂的苦力营"（soul-crushing gulag），引发对 AI 行业工作文化的关注。
+
+**关键要点**：
+- 多位工程师匿名控诉极端工作压力和不合理期望
+- 反映了 AI 竞赛白热化下科技巨头的人才管理问题
+- 可能影响 Meta 在 AI 人才市场的吸引力
+
+**影响力评估**：在 AI 人才争夺战最激烈之际，负面工作文化报道可能损害 Meta 的招聘竞争力。
+
+📅 **来源**：TechCrunch（Connie Loizos）· 2026年6月13日
+🔗 **链接**：https://techcrunch.com/2026/06/13/metas-ai-unit-soul-crushing-gulag/
+
+---
+
+## 🛠️ 工具与应用
+
+### Avataar 视频 AI：为印度规模打造的文化感知视频生成
+
+**摘要**：Avataar 发布面向印度市场的 AI 视频生成平台，强调更便宜、更快速且具有文化感知能力。
+
+**关键要点**：
+- 专为印度市场优化，成本更低、速度更快
+- 内置文化感知功能，理解印度多语言、多文化场景
+- 展示了 AI 应用本地化的发展趋势
+
+**影响力评估**：印度作为全球增长最快的AI消费市场之一，本土化AI工具的价值正在快速显现。
+
+📅 **来源**：TechCrunch（Ivan Mehta）· 2026年6月12日
+🔗 **链接**：https://techcrunch.com/2026/06/12/avataar-video-ai-india/
+
+---
+
+### TCL 电视集成 Gemini 语音控制
+
+**摘要**：TCL 为其 Google TV 系列电视升级 Gemini 语音控制，用户可通过语音调整画面设置、解决显示问题。
+
+**关键要点**：
+- 可用自然语言描述问题（如"屏幕太暗"）自动调整设置
+- 2025-2026年款 TCL Google TV 美国首发，独占60天
+- 展示了 Gemini 在消费电子领域的深度集成
+
+**影响力评估**：AI 助手从手机和音箱走向电视等家电，加速智能家居的 AI 化进程。
+
+📅 **来源**：The Verge（Jess Weatherbed）· 2026年6月12日
+🔗 **链接**：https://www.theverge.com/ai-artificial-intelligence
+
+---
+
+### Meta 向13万美国盲人退伍军人捐赠 AI 眼镜
+
+**摘要**：Meta 宣布通过 Blinded Veterans Association 和 TechSoup 向全美超过13万盲人退伍军人免费提供 AI 智能眼镜及培训。
+
+**关键要点**：
+- Ray-Ban Meta 智能眼镜已证明是残障人士的实用辅助工具
+- Meta 及其合作伙伴将提供手把手使用培训
+- 项目口号："The Future Is for Everyone"
+
+**影响力评估**：AI 辅助技术在无障碍领域的应用正从实验走向规模化部署，社会影响力显著。
+
+📅 **来源**：The Verge（Emma Roth）· 2026年6月13日
+🔗 **链接**：https://www.theverge.com/ai-artificial-intelligence
+
+---
+
+### Wordsmith 法律 AI 获 $7000万 B 轮融资
+
+**摘要**：苏格兰法律 AI 初创公司 Wordsmith 完成 $7000万 Series B 融资，由 Highland Europe 和 Index Ventures 投资，其平台已服务超500家企业法务团队。
+
+**关键要点**：
+- 围绕"接收-路由-解决-记录"四步构建法律 AI 工作流
+- 自动处理常规法律事务，仅在需要专业判断时转交人类律师
+- 降低企业对外部律所的依赖
+
+**影响力评估**：法律 AI 正从"辅助工具"进化为"工作流自动化平台"，对传统法律服务业构成结构性挑战。
+
+📅 **来源**：FinSMEs · 2026年6月3日
+🔗 **链接**：https://www.finsmes.com/2026/06/wordsmith-raises-70m-in-series-b-funding.html
+
+---
+
+## 🌍 政策与伦理
+
+### Anthropic CEO 呼吁 FAA 式 AI 监管
+
+**摘要**：Anthropic CEO Dario Amodei 公开呼吁建立类似美国联邦航空管理局（FAA）的 AI 安全监管机构，对强大 AI 模型实施许可和召回制度。
+
+**关键要点**：
+- 建议建立类似 FAA 的独立 AI 监管机构
+- 要求企业在 AI 战略中"解耦单一供应商依赖"
+- 为"旗舰模型被突然禁止或召回"的可能性做好准备
+
+**影响力评估**：AI 行业领导者主动呼吁监管的案例日益增多，预示行业自律与政府监管的融合趋势。
+
+📅 **来源**：VentureBeat（Carl Franzen）· 2026年6月10日
+🔗 **链接**：https://venturebeat.com/ai/anthropic-ceo-calls-for-faa-style-regulation-of-powerful-ai-models/
+
+---
+
+### Google 起诉利用 AI 进行诈骗的中国网络犯罪团伙
+
+**摘要**：Google 对一中国网络犯罪团伙提起诉讼，指控其利用 AI 技术诈骗"数十万受害者"。
+
+**关键要点**：
+- 该团伙使用 AI 技术实施大规模网络诈骗
+- Google 首次针对 AI 驱动的跨国网络犯罪发起法律行动
+- 展示了 AI 被恶意使用的现实威胁
+
+**影响力评估**：AI 诈骗的规模和复杂度正在升级，科技巨头的主动法律行动可能成为新常态。
+
+📅 **来源**：TechCrunch（Lorenzo Franceschi-Bicchierai）· 2026年6月13日
+🔗 **链接**：https://techcrunch.com/2026/06/13/chinese-cybercrime-ai-scam-google-lawsuit/
+
+---
+
+### 美国 AI 监管：州级立法碎片化 vs 联邦统一框架之争
+
+**摘要**：美国 AI 监管正面临州级立法碎片化与联邦统一框架之间的拉锯。特朗普行政令试图建立"最小负担的国家AI政策框架"，而加州、德州、纽约等州已率先通过各自的AI法律。
+
+**关键要点**：
+- **德州 TRAIGA**：限制政府使用AI进行生物识别和社会评分，要求消费者AI透明度
+- **纽约 RAISE 法案**：要求前沿模型开发者提交广泛安全报告（2027年生效）
+- **加州**：聊天机器人安全规则、前沿开发者透明度义务、灾难风险事件报告
+- **伊利诺伊**：限制AI在就业决策中的使用
+- 联邦行政令通过诉讼和资金机制推动统一，但实际效果缓慢
+
+**影响力评估**：2026年下半年将是美国AI监管格局的关键转折期——统一还是碎片化将决定企业合规成本和创新速度。
+
+📅 **来源**：Cimplifi / Wilson Sonsini · 2026年
+🔗 **链接**：https://www.cimplifi.com/resources/the-ai-regulation-landscape-for-2026-what-legal-and-compliance-leaders-need-to-know
+
+---
+
+### AI 生成诉讼泛滥，法院疲于应对
+
+**摘要**：MIT Technology Review 报道，大量由 AI（包括 chatbot 充当律师角色）生成的诉讼涌入法院，美国法院系统正面临前所未有的挑战。
+
+**关键要点**：
+- 法官们正在界定 chatbot 作为法律代理应具有的权利和义务
+- AI 生成的诉讼文书数量激增，法院处理能力接近极限
+- 引发对法律行业准入门槛和 AI 责任的广泛讨论
+
+**影响力评估**：AI 对法律系统的冲击已从"未来担忧"变为"现实危机"，亟需制定应对框架。
+
+📅 **来源**：MIT Technology Review · 2026年6月
+🔗 **链接**：https://www.technologyreview.com/topic/artificial-intelligence/
+
+---
+
+### Meta 安全事件揭示：AI 安全威胁不止于前沿模型
+
+**摘要**：MIT Technology Review 分析指出，Meta 近期的安全事件表明，一些最危险的 AI 安全威胁其实异常简单，而非仅仅来自最前沿模型。
+
+**关键要点**：
+- 简单的攻击手段（如提示注入）仍对 AI 系统构成重大威胁
+- 安全关注过度集中于前沿模型，忽视了基础设施层面的薄弱环节
+- 呼吁企业和开发者关注全栈 AI 安全，而非仅关注模型层面的"神话级"防御
+
+**影响力评估**：在行业追逐前沿模型安全的竞赛中，基础安全防护的忽视可能导致"灯下黑"的风险。
+
+📅 **来源**：MIT Technology Review · 2026年6月
+🔗 **链接**：https://www.technologyreview.com/topic/artificial-intelligence/
+
+---
+
+## 🎯 今日关键要点
+
+1. **AI 模型竞争白热化**：Anthropic Claude Fable 5 与 OpenAI GPT-5.5 在全新基准测试上的对决标志着前沿模型竞争进入更精细化的阶段——不再仅是"谁更强"，而是"谁更可靠"。
+
+2. **物理世界 AI 成为超级资本新战场**：Jeff Bezos 的 Prometheus $120亿融资和 SpaceX 史上最大 IPO 同周发生，表明"AI + 物理世界"正成为比纯软件 AI 更大的资本吸引极。
+
+3. **从"拒绝回答"到"诚实不确定"**：Google 的"忠实不确定性"研究直面企业 AI 部署的核心矛盾——在安全与实用之间，正在出现第三条路径。
+
+---
+
+**生成时间**：2026-06-13 08:00 UTC+8
+**下次更新**：明日同一时间
+**工具链**：Hermes Agent · daily-ai-news skill · browser navigation · web_search
+
+  </div>
+  <a class="back" href="../">← 返回首页</a>
+</div>
+</body>
+</html>
