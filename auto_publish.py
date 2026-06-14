@@ -58,10 +58,10 @@ def read_file_safe(path: Path) -> str:
 
 
 def find_latest_file(directory: Path) -> Path | None:
-    """Find the most recently modified file in a directory."""
+    """Find the most recent .md file in a directory."""
     if not directory.exists():
         return None
-    files = [f for f in directory.iterdir() if f.is_file()]
+    files = [f for f in directory.iterdir() if f.is_file() and f.suffix == ".md"]
     if not files:
         return None
     return max(files, key=lambda f: f.stat().st_mtime)
@@ -253,9 +253,9 @@ def main():
     if trend_post:
         new_articles.append(trend_post)
 
-    # Avoid duplicates
-    existing_titles = {a["title"] for a in existing}
-    fresh = [a for a in new_articles if a["title"] not in existing_titles]
+    # Avoid duplicates (use contentUrl as unique key — titles may repeat across days)
+    existing_urls = {a.get("contentUrl", "") for a in existing}
+    fresh = [a for a in new_articles if a.get("contentUrl", "") not in existing_urls]
     all_articles = fresh + existing
 
     # Keep max 100 articles

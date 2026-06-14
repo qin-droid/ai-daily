@@ -5,8 +5,22 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Sat, 13 Jun 2026 12:04:55 +0800</lastBuildDate>
+  <lastBuildDate>Sun, 14 Jun 2026 00:03:55 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>📰 每日AI资讯简报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-14-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-14-ai-news.html</guid>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-06-14</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-14-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-14-github-trending.html</guid>
+    <pubDate>Sun, 14 Jun 2026 00:00:00 +0800</pubDate>
+    <description>总计 **14** 个热门仓库</description>
+  </item>
   <item>
     <title>🚀 GitHub 开源精选 | 2026-06-13</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-opensource.html</link>

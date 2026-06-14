@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📰 每日AI资讯简报 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>📰 每日AI资讯简报</h1>
+  <div class="date">2026-06-14</div>
+  <div class="content">
+# 📰 每日AI资讯简报
+
+**日期**: 2026年6月13日（周六）
+**来源**: 15+ 篇文章，来自 10+ 来源
+**覆盖范围**: 过去24-48小时
+
+---
+
+## 🔥 重磅发布
+
+### Google DeepMind 发布 DiffusionGemma：文本生成速度提升4倍
+
+**摘要**: DeepMind发布了DiffusionGemma，首个基于扩散机制的文本生成模型，推理速度是传统自回归模型的4倍。
+
+**要点**:
+- 采用扩散机制并行生成256个token，打破逐token串行瓶颈
+- FP8量化后18GB VRAM即可运行
+- 开源发布，可直接在HuggingFace下载
+- 适用于代码生成、长文本创作等场景
+
+**影响**: 扩散语言模型挑战了自回归架构的主导地位，可能开启LLM推理效率的新范式。
+
+📅 **来源**: Google DeepMind Blog • 2026年6月
+🔗 **链接**: https://deepmind.google/blog
+
+---
+
+### Google 发布 Gemma 4 12B：统一的无编码器多模态模型
+
+**摘要**: Google发布了Gemma 4 12B，首个无需独立编码器的原生多模态开源模型，在12B参数下实现图文统一理解。
+
+**要点**:
+- 原生多模态架构，文本和图像使用统一表示空间
+- 仅12B参数，可在消费级GPU上运行
+- 支持图文理解、多模态推理、视觉问答
+- Apache 2.0 开源许可
+
+📅 **来源**: Google DeepMind • 2026年6月
+🔗 **链接**: https://ai.google.dev/gemma
+
+---
+
+### Anthropic Claude Fable 5 发布（6月9日）
+
+**摘要**: Anthropic发布迄今最强通用模型Claude Fable 5，在Agents' Last Exam基准上达到24.0%通过率，超越GPT-5.5（22.0%）。
+
+**要点**:
+- 在多个前沿基准测试中全面领先
+- 强化了代码生成和长程推理能力
+- Anthropic同时宣布将公开隐藏的安全护栏设置（此前因"隐藏限流"遭研究者批评）
+- IPO筹备中，近期估值达$965B（$65B H轮融资）
+
+📅 **来源**: AI Release Tracker / 多家媒体 • 2026年6月9日
+
+---
+
+### Jeff Bezos 旗下 Prometheus 获$120亿融资：打造"通用人工工程师"
+
+**摘要**: 贝索斯支持的物理AI创业公司Prometheus完成$120亿融资，估值$410亿，旨在构建能自动完成重型工程和药物设计的AGI。
+
+**要点**:
+- 专注物理世界AI：自动化重型工程、药物设计
+- $120亿融资，估值$410亿
+- 物理AI赛道竞争加剧
+
+📅 **来源**: Creati.ai • 2026年6月12日
+
+---
+
+### OpenAI 收购 Ona 强化 Codex；ChatGPT月活突破10亿
+
+**摘要**: OpenAI收购云环境初创Ona，增强Codex AI编程助手能力；同时Sensor Tower数据显示ChatGPT月活突破10亿。
+
+**要点**:
+- Ona提供agent-ready基础设施，加速Codex编程智能体能力
+- ChatGPT全球月活应用用户达到10亿（2026年5月数据）
+- OpenAI与Anthropic均在大举伦敦扩张，争夺AI人才
+- OpenAI成立合资企业"The Deployment Company"（$100亿估值，19家投资方）
+
+📅 **来源**: Creati.ai / Yahoo Finance • 2026年6月12日
+
+---
+
+### Google Gemini 3.5 Live Translate：流利自然的语音翻译
+
+**摘要**: Google发布Gemini 3.5 Live Translate，实现实时语音翻译，支持多种语言的流畅自然对话翻译。
+
+📅 **来源**: Google DeepMind • 2026年6月
+
+---
+
+### Coinbase 推出AI交易代理：可自主交易并购买付费研究
+
+**摘要**: Coinbase发布AI Agent，能自主执行交易、购买付费研究，用户可连接主账户或子账户。
+
+📅 **来源**: Creati.ai • 2026年6月12日
+
+---
+
+## 💰 行业与投融资
+
+### AI基础设施投资潮：大厂疯狂烧钱
+
+| 公司 | 动态 | 影响 |
+|------|------|------|
+| Microsoft | AI基建支出Q4将超$400亿 | 股价-0.9%，投资者担忧利润率 |
+| Amazon | 新增$175亿AI专项贷款 | 股价-1.6%，现金流压力引关注 |
+| Super Micro | $70亿AI融资引发稀释恐慌 | 股价-4.7%至$30.46 |
+| Oracle | AI数据中心支出引发现金消耗担忧 | 股价承压 |
+| Cipher Digital | 定价$8.1亿高级担保票据 | 股价+9%至$24.66 |
+
+---
+
+### Nvidia 市值逼近$5万亿：Vera中国发布与Blackwell再证AI需求
+
+**摘要**: Nvidia收盘$205.19（+0.16%），KKR领导的$100亿Helix数字基础设施项目为锚定投资者。但中国GPU出货停滞、TSMC依赖、数据中心电力短缺为隐忧。下一个催化剂：6月24日年度股东大会。
+
+📅 **来源**: TS2.tech • 2026年6月13日
+
+---
+
+### Intel 股价大涨6.5%：AI代工希望点燃估值修复
+
+**摘要**: Intel涨6.5%至$124.57，美银上调至买入，目标价$135。市场看好Intel在AI服务器需求中赢得制造客户的潜力，等待Google代工订单确认。
+
+📅 **来源**: TS2.tech • 2026年6月13日
+
+---
+
+### Nokia 因AI概念暴涨10%：摩根大通上调目标价
+
+**摘要**: Nokia飙涨10.06%至€12.97，摩根大通将目标价上调至€18，看好AI和云业务增长。7月23日Q2财报为下个催化剂。
+
+📅 **来源**: TS2.tech • 2026年6月13日
+
+---
+
+### 本周重大融资汇总
+
+- **Prometheus**: $120亿，估值$410亿（物理AI）
+- **Neura Robotics**: $14亿C轮，估值$93亿（AI机器人）
+- **Ramp**: $7.5亿F轮，估值$440亿（AI金融工具）
+- **Cyera**: $6亿，估值$120亿（AI安全）
+- **Ant International**: $10亿（AI金融科技）
+- **Moonshot AI**: $20亿融资谈判中，估值$300亿
+- **Anthropic**: $650亿H轮（5月28日），估值$9650亿
+
+📅 **来源**: AI Funding Tracker / 多家媒体 • 2026年6月8-14日
+
+---
+
+## 🛠️ 工具与应用
+
+### Deezer 推出AI音乐识别工具
+
+**摘要**: Deezer推出检测工具，可跨Spotify、Apple Music等平台扫描播放列表，识别AI生成的音乐曲目。流媒体平台正在加速构建AI内容识别能力。
+
+📅 **来源**: Creati.ai • 2026年6月12日
+
+---
+
+### 苹果相机主管：iOS 27照片App将赋予用户AI超能力
+
+**摘要**: 苹果相机团队负责人透露，iOS 27照片App将引入生成式AI功能，可在照片中添加合成像素，提供全新创意能力。
+
+📅 **来源**: Creati.ai • 2026年6月12日
+
+---
+
+### Meta Edits App 新增AI助手和桌面版
+
+**摘要**: Meta为Edits应用添加AI助手和桌面版本，旨在在TikTok和YouTube的竞争中留住Instagram创作者。
+
+📅 **来源**: Creati.ai • 2026年6月12日
+
+---
+
+### Visa + OpenAI：代理式支付走向主流
+
+**摘要**: Visa和OpenAI宣布代理式商务合作，为AI代理提供安全支付基础设施，包括token化凭证和用户控制机制。
+
+📅 **来源**: Creati.ai • 2026年6月12日
+
+---
+
+## 🌍 政策与治理
+
+### Anthropic 撤销 Claude Fable 隐藏护栏：研究者施压见效
+
+**摘要**: Anthropic在AI研究者强烈批评后，宣布将公开Claude Fable 5的安全防护设置。此前"隐藏限流"做法被指破坏AI研究的透明性。
+
+📅 **来源**: Creati.ai • 2026年6月12日
+
+---
+
+### Anthropic 发布就业替代经济框架
+
+**摘要**: Anthropic提出新经济框架评估AI对就业的影响。研究指出企业倾向于减少合同工、暂停招聘、重新设计岗位职责，而非大规模裁员。呼吁政府积极介入管理AI对劳动力市场的冲击。
+
+📅 **来源**: Times of AI • 2026年6月11日
+
+---
+
+### 印度政府警告：AI驱动的网络欺诈威胁金融安全
+
+**摘要**: 印度网络犯罪协调中心(I4C)发布警告，指出犯罪分子利用deepfake视频和合成身份绕过金融安全检查，AI欺诈对数字验证体系构成严重威胁。
+
+📅 **来源**: Times of AI • 2026年6月11日
+
+---
+
+### 2026年美国新科技法律生效：AI、隐私、维修权
+
+**摘要**: The Verge报道，多项2026年新科技法律生效，涵盖AI监管、数据隐私和数字维修权。加州高影响AI法尤其严格：禁止煽动伤害、侵犯宪法权利、歧视受保护群体的AI应用。
+
+📅 **来源**: The Verge • 2026年
+
+---
+
+## 🔬 前沿研究
+
+### Google DeepMind 投资多智能体AI安全研究
+
+**摘要**: DeepMind宣布大举投资多智能体AI安全研究，构建多个AI系统协作时的安全保障框架。这是继2025年多篇世界模型研究后的重要安全举措。
+
+📅 **来源**: Google DeepMind Blog • 2026年6月
+
+---
+
+### DiffusionGemma 技术突破：扩散机制语言模型
+
+**摘要**: 扩散语言模型并行生成256个token，打破自回归模型逐token生成的串行瓶颈。这项技术有望改变LLM推理效率的底层架构。
+
+📅 **来源**: Google DeepMind • 2026年6月
+
+---
+
+## 🎯 关键要点
+
+1. **AI军备竞赛白热化** — Anthropic $650亿融资、Google密集发布、Prometheus $120亿入局，行业烧钱速度前所未有。但微软/Amazon/Oracle巨额AI基建支出正引发投资者对盈利能力的质疑。
+
+2. **扩散模型挑战Transformer** — DiffusionGemma证明了扩散机制在语言模型中的可行性，并行token生成是潜在的游戏规则改变者。
+
+3. **AI安全与监管双重压力** — Anthropic被迫公开安全护栏、印度警告AI欺诈、加州新法生效，AI治理正从自愿走向强制。行业面临"创新速度 vs 安全可控"的根本性张力。
+
+---
+
+**生成时间**: 2026-06-13 17:00 CST
+**下次更新**: 明早自动推送
+
+  </div>
+  <a class="back" href="../">← 返回首页</a>
+</div>
+</body>
+</html>
