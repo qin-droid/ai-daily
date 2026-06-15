@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-06-15",
+    "title": "🤖 AI资讯精选 | 2026-06-16",
+    "desc": "> Anthropic 模型遭美政府封禁、Google 搜索25年来首次改版、Sakana AI 推出超深度研究报告——AI 世界一日千里",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-15-ai-news.html"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "GitHub 趋势日报 | 2026-06-16",
+    "desc": "总计 30 个热门仓库（最近 7 天创建，⭐ ≥ 100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-15-github-trending.html"
+  },
+  {
+    "date": "2026-06-15",
     "title": "🚀 GitHub 开源精选 | 2026年6月15日",
     "desc": "本周最值得关注的 3 个开源项目，个个实用 🛠️",
     "tag": "GitHub 开源推荐",
