@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-06-16",
+    "title": "🤖 AI资讯精选 | 2026-06-17",
+    "desc": "> 科技巨头博弈、开源模型崛起、AI经济重塑行业格局",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-16-ai-news.html"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "GitHub 趋势日报 | 2026-06-17",
+    "desc": "总计 30 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-16-github-trending.html"
+  },
+  {
+    "date": "2026-06-16",
     "title": "🚀 GitHub 开源精选 | 2026-06-16",
     "desc": "本周最值得关注的3个开源项目：ponytail (让AI Agent学会偷懒)、shadcn/improve (智能审计代码)、omnigent (统一Agent编排)",
     "tag": "GitHub 开源推荐",
