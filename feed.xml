@@ -5,8 +5,15 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Mon, 15 Jun 2026 23:03:49 +0800</lastBuildDate>
+  <lastBuildDate>Tue, 16 Jun 2026 12:05:22 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🚀 GitHub 开源精选 | 2026-06-16</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-github-opensource.html</guid>
+    <pubDate>Tue, 16 Jun 2026 00:00:00 +0800</pubDate>
+    <description>本周最值得关注的3个开源项目：ponytail (让AI Agent学会偷懒)、shadcn/improve (智能审计代码)、omnigent (统一Agent编排)</description>
+  </item>
   <item>
     <title>🤖 AI资讯精选 | 2026-06-16</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-ai-news.html</link>

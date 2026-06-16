@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-16",
+    "title": "🚀 GitHub 开源精选 | 2026-06-16",
+    "desc": "本周最值得关注的3个开源项目：ponytail (让AI Agent学会偷懒)、shadcn/improve (智能审计代码)、omnigent (统一Agent编排)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-16-github-opensource.html"
+  },
+  {
     "date": "2026-06-15",
     "title": "🤖 AI资讯精选 | 2026-06-16",
     "desc": "> Anthropic 模型遭美政府封禁、Google 搜索25年来首次改版、Sakana AI 推出超深度研究报告——AI 世界一日千里",
