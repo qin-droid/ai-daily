@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-17",
+    "title": "🤖 AI资讯精选 | 2026-06-18",
+    "desc": "> Anthropic升级Claude Design、新浪微博VibeThinker-3B震惊学界、Z.ai发布开源GLM-5.2超越GPT-5.5、微软CEO警告AI产业空心化",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-17-ai-news.html"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "GitHub 趋势日报 | 2026-06-18",
+    "desc": "总计 16 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-17-github-trending.html"
+  },
+  {
     "date": "2026-06-16",
     "title": "🤖 AI资讯精选 | 2026-06-17",
     "desc": "> 科技巨头博弈、开源模型崛起、AI经济重塑行业格局",

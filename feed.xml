@@ -5,8 +5,22 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 16 Jun 2026 23:12:12 +0800</lastBuildDate>
+  <lastBuildDate>Wed, 17 Jun 2026 23:03:42 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🤖 AI资讯精选 | 2026-06-18</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-17-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-17-ai-news.html</guid>
+    <pubDate>Wed, 17 Jun 2026 00:00:00 +0800</pubDate>
+    <description>> Anthropic升级Claude Design、新浪微博VibeThinker-3B震惊学界、Z.ai发布开源GLM-5.2超越GPT-5.5、微软CEO警告AI产业空心化</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-06-18</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-17-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-17-github-trending.html</guid>
+    <pubDate>Wed, 17 Jun 2026 00:00:00 +0800</pubDate>
+    <description>总计 16 个热门仓库（近7天创建，⭐≥100）</description>
+  </item>
   <item>
     <title>🤖 AI资讯精选 | 2026-06-17</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-ai-news.html</link>
