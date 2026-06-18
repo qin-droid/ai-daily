@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🤖 AI资讯精选 | 2026-06-19 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>🤖 AI资讯精选 | 2026-06-19</h1>
+  <div class="date">2026-06-18</div>
+  <div class="content">
+# 🤖 AI资讯精选 | 2026-06-19
+
+> 今日AI圈：Arbor框架2.5倍超越Claude Code/Codex，Anthropic修复Claude Design"吞Token"问题，Weibo 3B模型挑战千亿参数大模型
+
+---
+
+## 🔥 重磅发布
+
+### Arbor：全新AI优化框架，同等算力下超越Claude Code和Codex 2.5倍
+
+**摘要**：Ben Dickson报道，Arbor框架通过构建持久化实验树，将失败转化为约束而非浪费算力，在相同计算预算下性能达到Claude Code和Codex的2.5倍。
+
+**要点**：
+- 突破传统coding agent"无记忆循环"的局限
+- 实验树架构让每次失败都成为后续优化的约束条件
+- 无需修改底层模型即可获得显著性能提升
+
+📅 **来源**: VentureBeat • 2026-06-18
+🔗 **链接**: https://venturebeat.com/category/ai/
+
+---
+
+### Anthropic 大幅升级 Claude Design：支持设计系统导入、代码往返，修复Token消耗问题
+
+**摘要**：Anthropic对Claude Design进行重大更新，解决此前被广泛吐槽的"Token燃烧"问题——有评测称25分钟耗尽80%周配额。
+
+**要点**：
+- 新增设计系统导入功能，可直接导入现有设计规范
+- 支持代码往返（Code round-trips），设计变体之间无缝切换
+- 修复Token消耗过高问题，大幅提升Pro用户可用性
+- 此前已达100万首周用户
+
+📅 **来源**: VentureBeat • 2026-06-17
+🔗 **链接**: https://venturebeat.com/category/ai/
+
+---
+
+### Z.ai 开源 GLM-5.2：以1/6成本超越 GPT-5.5 多项长周期编程基准
+
+**摘要**：Z.ai发布开源权重模型GLM-5.2，在多项长周期编程测试中击败GPT-5.5，成本仅为1/6。
+
+**要点**：
+- 开放权重模型，可在自有基础设施上部署
+- 完全消除供应商锁定
+- 为工程团队提供可自托管的前沿AI能力
+
+📅 **来源**: VentureBeat • 2026-06-16
+🔗 **链接**: https://venturebeat.com/category/ai/
+
+---
+
+### Google 25年来首次重新设计搜索框
+
+**摘要**：Google将于周二正式告别延续25年的经典搜索框设计范式——白色矩形、闪烁光标、蓝色链接列表。
+
+**要点**：
+- 这是Google搜索界面25年来最重大的视觉变革
+- 标志着从传统搜索向AI驱动的交互范式转型
+
+📅 **来源**: VentureBeat • 2026-05-19（重大事件持续影响中）
+🔗 **链接**: https://venturebeat.com/category/ai/
+
+---
+
+## 🔬 前沿研究
+
+### Weibo推出VibeThinker-3B：仅3B参数挑战千亿参数大模型
+
+**摘要**：新浪微博研究团队发布14页技术报告，声称仅3B参数的小模型在推理性能上可匹敌Google DeepMind、OpenAI、Anthropic和DeepSeek的千亿参数系统。
+
+**要点**：
+- 9人团队，论文发布于arXiv
+- 以极小参数规模实现与旗舰系统相当的推理能力
+- 引发AI社区关于基准测试有效性的广泛讨论
+
+📅 **来源**: VentureBeat • 2026-06-17
+🔗 **链接**: https://venturebeat.com/category/ai/
+
+---
+
+### Stanford DeLM：去中心化多Agent协作，成本降低50%
+
+**摘要**：斯坦福大学发布DeLM（Decentralized Language Model）框架，无需中央协调器即可实现多Agent协作，成本降低50%。
+
+**要点**：
+- 无需中央编排器，完全去中心化的Agent间通信
+- 大幅降低多Agent系统运行成本
+- 可能改变未来Agent架构的设计范式
+
+📅 **来源**: VentureBeat • 2026-06-16
+🔗 **链接**: https://venturebeat.com/category/ai/
+
+---
+
+## 🛠️ 工具应用
+
+### Adobe 将Agentic AI工作流嵌入Creative Cloud
+
+**摘要**：Adobe在Creative Cloud中融入智能AI工作流，从媒体生成转向生产编排。
+
+**要点**：
+- 从单一媒体生成工具扩展到全生产流程编排
+- 暂未明确是否通过API开放这些Agent能力
+- 对AI系统架构师而言，关键价值在于可扩展性
+
+📅 **来源**: VentureBeat • 2026-06-18
+🔗 **链接**: https://venturebeat.com/category/ai/
+
+---
+
+### Vercel发布Eve：Agent应用构建框架
+
+**摘要**：Vercel开源Eve框架，用于构建Agent应用，上线后迅速获得1342颗星。
+
+**要点**：
+- TypeScript编写，与Vercel生态深度整合
+- 专为Agent应用场景设计的全栈框架
+- 迅速成为本周热门开源项目
+
+📅 **来源**: GitHub • 2026-06-16
+🔗 **链接**: https://github.com/vercel/eve
+
+---
+
+### junction：为本地AI编程Agent打造的VS Code聊天侧栏
+
+**摘要**：开源项目junction，将VS Code聊天侧栏与本地AI编程Agent连接，获得508颗星。
+
+**要点**：
+- 无需离开编辑器即可与本地AI Agent交互
+- 支持多种本地模型后端
+- 面向注重隐私的开发者
+
+📅 **来源**: GitHub • 2026-06-17
+🔗 **链接**: https://github.com/Plaer1/junction
+
+---
+
+## 💰 行业投融资
+
+| 项目/公司 | 轮次 | 金额 | 领域 | 要点 |
+|-----------|------|------|------|------|
+| Arbor框架 | 开源发布 | — | AI开发工具 | 2.5倍性能超越Claude Code/Codex |
+| Z.ai GLM-5.2 | 开源发布 | — | 大模型 | 1/6成本达GPT-5.5水平 |
+| Vercel Eve | 开源发布 | — | Agent框架 | Vercel生态Agent构建框架 |
+| Boogu-Image | 开源发布 | — | 图像生成 | 接近闭源水平的开源图像模型 |
+
+> 本周以开源发布为主，多家公司选择"开放权重+社区驱动"的传播策略。值得关注的是，中等规模开源模型（3B-50B参数）正在以极低成本挑战闭源旗舰模型的地位。
+
+---
+
+## 🌍 政策治理
+
+### OpenAI隐私过滤器开源：C++/GGML运行时实现
+
+**摘要**：OpenAI的隐私过滤NER模型架构以C++/GGML运行时形式开源，可在本地运行。
+
+**要点**：
+- 最小化C++运行时，适合边缘部署
+- 基于GGML，无需GPU即可运行
+- 为AI应用隐私保护提供可自托管方案
+
+📅 **来源**: GitHub • 2026-06-13
+🔗 **链接**: https://github.com/localai-org/privacy-filter.cpp
+
+---
+
+## 📊 今日AI趋势
+
+1. **"瘦身"模型崛起**：从Weibo VibeThinker-3B到Z.ai GLM-5.2，小参数模型以极低成本展示出挑战千亿参数模型的潜力
+2. **Agent工具链爆发**：Arbor、Vercel Eve、junction等Agent开发工具密集发布，Agent应用开发正在从实验走向工程化
+3. **去中心化趋势抬头**：Stanford DeLM展示了无需中央协调器的多Agent协作范式，可能改变现有Agent架构思路
+
+---
+*由 Hermes Agent 自动生成 | 2026-06-19 07:00 CST*
+
+  </div>
+  <a class="back" href="../">← 返回首页</a>
+</div>
+</body>
+</html>

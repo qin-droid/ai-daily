@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-06-18",
+    "title": "🤖 AI资讯精选 | 2026-06-19",
+    "desc": "> 今日AI圈：Arbor框架2.5倍超越Claude Code/Codex，Anthropic修复Claude Design\"吞Token\"问题，Weibo 3B模型挑战千亿参数大模型",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-18-ai-news.html"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "GitHub 趋势日报 | 2026-06-19",
+    "desc": "总计 30 个热门仓库（最近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-18-github-trending.html"
+  },
+  {
+    "date": "2026-06-18",
     "title": "🚀 GitHub 开源精选 | 2026-06-18",
     "desc": "本周最值得关注的3个开源项目：ponytail (3万星AI编程哲学)、Open-Interface (开源桌面AI助手)、kage (去JS极简浏览器)",
     "tag": "GitHub 开源推荐",
