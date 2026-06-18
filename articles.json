@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-18",
+    "title": "🚀 GitHub 开源精选 | 2026-06-18",
+    "desc": "本周最值得关注的3个开源项目：ponytail (3万星AI编程哲学)、Open-Interface (开源桌面AI助手)、kage (去JS极简浏览器)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-18-github-opensource.html"
+  },
+  {
     "date": "2026-06-17",
     "title": "🤖 AI资讯精选 | 2026-06-18",
     "desc": "> Anthropic升级Claude Design、新浪微博VibeThinker-3B震惊学界、Z.ai发布开源GLM-5.2超越GPT-5.5、微软CEO警告AI产业空心化",
