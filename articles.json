@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-19",
+    "title": "🚀 GitHub 开源精选 | 2026-06-19",
+    "desc": "本周最值得关注的3个开源项目：vercel/eve (Agent全栈框架)、tamnd/kage (去JS网页快照)、best-humanizer-handbook (AI写作去味指南)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-19-github-opensource.html"
+  },
+  {
     "date": "2026-06-18",
     "title": "🤖 AI资讯精选 | 2026-06-19",
     "desc": "> 今日AI圈：Arbor框架2.5倍超越Claude Code/Codex，Anthropic修复Claude Design\"吞Token\"问题，Weibo 3B模型挑战千亿参数大模型",
