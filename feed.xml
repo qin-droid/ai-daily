@@ -5,15 +5,22 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Sat, 20 Jun 2026 23:00:00 +0800</lastBuildDate>
-  <item>
-    <title>🚀 GitHub 开源精选 | 2026-06-20</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-github-opensource.html</guid>
-    <pubDate>Sat, 20 Jun 2026 00:00:00 +0800</pubDate>
-    <description>本周最值得关注的3个开源项目：vercel/eve (Vercel Agent框架)、tamnd/kage (离线网页快照)、loop-engineering-orange-book (Agent开发橙皮书)</description>
-  </item>
+  <lastBuildDate>Sat, 20 Jun 2026 23:12:47 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>📰 每日AI资讯简报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-ai-news.html</guid>
+    <pubDate>Sat, 20 Jun 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-06-21</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-github-trending.html</guid>
+    <pubDate>Sat, 20 Jun 2026 00:00:00 +0800</pubDate>
+    <description>总计 30 个热门仓库（近 7 天内创建，⭐ ≥ 100）</description>
+  </item>
   <item>
     <title>🤖 AI资讯精选 | 2026-06-20</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-19-ai-news.html</link>
@@ -27,6 +34,13 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-19-github-trending.html</guid>
     <pubDate>Fri, 19 Jun 2026 00:00:00 +0800</pubDate>
     <description>总计 **30** 个热门仓库（近7天创建，⭐ ≥ 100）</description>
+  </item>
+  <item>
+    <title>🚀 GitHub 开源精选 | 2026-06-20</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-20-github-opensource.html</guid>
+    <pubDate>Sat, 20 Jun 2026 00:00:00 +0800</pubDate>
+    <description>本周最值得关注的3个开源项目：vercel/eve (Vercel Agent框架)、tamnd/kage (离线网页快照)、loop-engineering-orange-book (Agent开发橙皮书)</description>
   </item>
   <item>
     <title>🚀 GitHub 开源精选 | 2026-06-19</title>
@@ -132,27 +146,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-14-github-opensource.html</guid>
     <pubDate>Sun, 14 Jun 2026 00:00:00 +0800</pubDate>
     <description>本周最值得关注的3个开源项目：Agent Skills (Google工程师出品)、Superpowers (22.7万星Agent框架)、Apple Container (苹果官方容器)</description>
-  </item>
-  <item>
-    <title>🚀 GitHub 开源精选 | 2026-06-13</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-opensource.html</guid>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 +0800</pubDate>
-    <description>本周最值得关注的3个开源项目：Superpowers (AI Agent技能框架)、Apple Container (苹果容器运行时)、PowerToys (微软效率神器)</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-06-13</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-13-github-trending.html</guid>
-    <pubDate>Sat, 13 Jun 2026 00:00:00 +0800</pubDate>
-    <description>总计 **13** 个热门仓库</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-06-12</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-12-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-12-github-trending.html</guid>
-    <pubDate>Fri, 12 Jun 2026 00:00:00 +0800</pubDate>
-    <description>总计 **19** 个热门仓库</description>
   </item>
 </channel>
 </rss>
