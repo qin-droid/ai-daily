@@ -20,6 +20,16 @@
     "contentUrl": "/articles/2026-06-19-github-trending.html"
   },
   {
+    "date": "2026-06-20",
+    "title": "🚀 GitHub 开源精选 | 2026-06-20",
+    "desc": "本周最值得关注的3个开源项目：vercel/eve (Vercel Agent框架)、tamnd/kage (离线网页快照)、loop-engineering-orange-book (Agent开发橙皮书)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-20-github-opensource.html"
+  },
+  {
     "date": "2026-06-19",
     "title": "🚀 GitHub 开源精选 | 2026-06-19",
     "desc": "本周最值得关注的3个开源项目：vercel/eve (Agent全栈框架)、tamnd/kage (去JS网页快照)、best-humanizer-handbook (AI写作去味指南)",
