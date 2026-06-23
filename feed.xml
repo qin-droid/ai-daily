@@ -5,8 +5,29 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 23 Jun 2026 12:02:33 +0800</lastBuildDate>
+  <lastBuildDate>Tue, 24 Jun 2026 00:00:00 +0800</lastBuildDate>
+    <item>
+      <title><![CDATA[🐙 GitHub 开源推荐 | 2026-06-24]]></title>
+      <link>https://ai-daily-blog.pages.dev/articles/2026-06-24-github-opensource.html</link>
+      <description><![CDATA[百度开源One-shot长文本OCR、Agent学习生态、Cloudflare安全审计Skill化]]></description>
+      <pubDate>Tue, 24 Jun 2026 00:00:00 +0800</pubDate>
+      <guid>https://ai-daily-blog.pages.dev/articles/2026-06-24-github-opensource.html</guid>
+    </item>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🤖 AI资讯精选 | 2026-06-24</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-ai-news.html</guid>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
+    <description>> Hollywood向OpenAI低头，Meta推出无Ray-Ban版智能眼镜，Nvidia Rubin数据中心用液冷省水，Midjourney进军医疗影像引发争议</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-06-24</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-trending.html</guid>
+    <pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
+    <description>总计 64 个热门仓库（近7天创建，⭐≥100），精选30个展示</description>
+  </item>
   <item>
     <title>🚀 GitHub 开源精选 | 2026-06-23</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-opensource.html</link>
@@ -47,7 +68,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-19-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-19-ai-news.html</guid>
     <pubDate>Fri, 19 Jun 2026 00:00:00 +0800</pubDate>
-    <description>&gt; 今日AI领域：Anthropic大幅升级Claude Design、微博VibeThinker-3B挑战大模型范式、Adobe全面嵌入AI工作流、Z.ai开源模型以1/6成本超越GPT-5.5</description>
+    <description>> 今日AI领域：Anthropic大幅升级Claude Design、微博VibeThinker-3B挑战大模型范式、Adobe全面嵌入AI工作流、Z.ai开源模型以1/6成本超越GPT-5.5</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-06-20</title>
@@ -75,7 +96,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-ai-news.html</guid>
     <pubDate>Thu, 18 Jun 2026 00:00:00 +0800</pubDate>
-    <description>&gt; 今日AI圈：Arbor框架2.5倍超越Claude Code/Codex，Anthropic修复Claude Design&quot;吞Token&quot;问题，Weibo 3B模型挑战千亿参数大模型</description>
+    <description>> 今日AI圈：Arbor框架2.5倍超越Claude Code/Codex，Anthropic修复Claude Design"吞Token"问题，Weibo 3B模型挑战千亿参数大模型</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-06-19</title>
@@ -96,7 +117,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-17-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-17-ai-news.html</guid>
     <pubDate>Wed, 17 Jun 2026 00:00:00 +0800</pubDate>
-    <description>&gt; Anthropic升级Claude Design、新浪微博VibeThinker-3B震惊学界、Z.ai发布开源GLM-5.2超越GPT-5.5、微软CEO警告AI产业空心化</description>
+    <description>> Anthropic升级Claude Design、新浪微博VibeThinker-3B震惊学界、Z.ai发布开源GLM-5.2超越GPT-5.5、微软CEO警告AI产业空心化</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-06-18</title>
@@ -110,7 +131,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-ai-news.html</guid>
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0800</pubDate>
-    <description>&gt; 科技巨头博弈、开源模型崛起、AI经济重塑行业格局</description>
+    <description>> 科技巨头博弈、开源模型崛起、AI经济重塑行业格局</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-06-17</title>
@@ -131,21 +152,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-ai-news.html</guid>
     <pubDate>Mon, 15 Jun 2026 00:00:00 +0800</pubDate>
-    <description>&gt; Anthropic 模型遭美政府封禁、Google 搜索25年来首次改版、Sakana AI 推出超深度研究报告——AI 世界一日千里</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-06-16</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-github-trending.html</guid>
-    <pubDate>Mon, 15 Jun 2026 00:00:00 +0800</pubDate>
-    <description>总计 30 个热门仓库（最近 7 天创建，⭐ ≥ 100）</description>
-  </item>
-  <item>
-    <title>🚀 GitHub 开源精选 | 2026年6月15日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-github-opensource.html</guid>
-    <pubDate>Mon, 15 Jun 2026 00:00:00 +0800</pubDate>
-    <description>本周最值得关注的 3 个开源项目，个个实用 🛠️</description>
+    <description>> Anthropic 模型遭美政府封禁、Google 搜索25年来首次改版、Sakana AI 推出超深度研究报告——AI 世界一日千里</description>
   </item>
 </channel>
 </rss>
