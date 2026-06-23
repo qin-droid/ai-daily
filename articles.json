@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-06-23",
+    "title": "🚀 GitHub 开源精选 | 2026-06-23",
+    "desc": "Agent Apprenticeship（AI特工训练营）、Unlimited-OCR（百度开源不限长OCR）、Junction（VS Code AI总控台）——Agent生态与基础设施并进",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-23-github-opensource.html"
+  },
+  {
     "date": "2026-06-22",
     "title": "🚀 GitHub 开源精选 | 2026-06-22",
     "desc": "Vercel Eve（Agent框架）、WebKubernetes（浏览器K8s）、Anthropic Launch Your Agent —— 本周AI Agent基础设施全面爆发",
