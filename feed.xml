@@ -5,15 +5,29 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 24 Jun 2026 00:00:00 +0800</lastBuildDate>
-    <item>
-      <title><![CDATA[🐙 GitHub 开源推荐 | 2026-06-24]]></title>
-      <link>https://ai-daily-blog.pages.dev/articles/2026-06-24-github-opensource.html</link>
-      <description><![CDATA[百度祭出无限长文本OCR、AI Agent学会"学徒制"、Cloudflare把安全审计打包成技能——本周值得Star的项目来了]]></description>
-      <pubDate>Tue, 24 Jun 2026 00:00:00 +0800</pubDate>
-      <guid>https://ai-daily-blog.pages.dev/articles/2026-06-24-github-opensource.html</guid>
-    </item>
+  <lastBuildDate>Wed, 24 Jun 2026 23:10:17 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>📰 每日AI资讯简报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-ai-news.html</guid>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-06-25</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-github-trending.html</guid>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0800</pubDate>
+    <description>## 🤖 AI/机器学习</description>
+  </item>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-06-24</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-github-opensource.html</guid>
+    <pubDate>Wed, 24 Jun 2026 00:00:00 +0800</pubDate>
+    <description>百度祭出无限长文本OCR、AI Agent学会"学徒制"、Cloudflare把安全审计打包成技能——本周值得Star的项目来了</description>
+  </item>
   <item>
     <title>🤖 AI资讯精选 | 2026-06-24</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-ai-news.html</link>
@@ -132,27 +146,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-ai-news.html</guid>
     <pubDate>Tue, 16 Jun 2026 00:00:00 +0800</pubDate>
     <description>> 科技巨头博弈、开源模型崛起、AI经济重塑行业格局</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-06-17</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-github-trending.html</guid>
-    <pubDate>Tue, 16 Jun 2026 00:00:00 +0800</pubDate>
-    <description>总计 30 个热门仓库（近7天创建，⭐≥100）</description>
-  </item>
-  <item>
-    <title>🚀 GitHub 开源精选 | 2026-06-16</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-16-github-opensource.html</guid>
-    <pubDate>Tue, 16 Jun 2026 00:00:00 +0800</pubDate>
-    <description>本周最值得关注的3个开源项目：ponytail (让AI Agent学会偷懒)、shadcn/improve (智能审计代码)、omnigent (统一Agent编排)</description>
-  </item>
-  <item>
-    <title>🤖 AI资讯精选 | 2026-06-16</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-ai-news.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-15-ai-news.html</guid>
-    <pubDate>Mon, 15 Jun 2026 00:00:00 +0800</pubDate>
-    <description>> Anthropic 模型遭美政府封禁、Google 搜索25年来首次改版、Sakana AI 推出超深度研究报告——AI 世界一日千里</description>
   </item>
 </channel>
 </rss>
