@@ -3,70 +3,69 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GitHub 开源推荐 | 2026-06-24</title>
-<meta name="description" content="百度开源One-shot长文本OCR、Agent学习生态、Cloudflare安全审计Skill化">
-<link rel="stylesheet" href="/style.css">
+<title>🐙 GitHub 开源推荐 | 2026-06-24 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h1 { font-size: 24px; margin-top: 0; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.content blockquote { border-left: 3px solid var(--accent); margin: 16px 0; padding: 4px 16px; color: var(--text2); }
+.content table { border-collapse: collapse; width: 100%; margin-bottom: 16px; }
+.content th, .content td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
+.content th { background: var(--bg2); font-weight: 600; }
+</style>
 </head>
 <body>
-<article>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>🐙 GitHub 开源推荐 | 2026-06-24</h1>
+  <div class="date">2026-06-24</div>
+  <div class="content">
+
 <h1>🐙 GitHub 开源推荐 | 2026-06-24</h1>
 <blockquote>
-<p>百度开源One-shot长文本OCR、Agent学习生态、Cloudflare安全审计Skill化</p>
+<p>百度祭出无限长文本OCR、AI Agent学会"学徒制"、Cloudflare把安全审计打包成技能——本周值得Star的项目来了</p>
 </blockquote>
-<hr>
-
-<h3>⭐ 1. baidu/Unlimited-OCR</h3>
-<p><strong>简介</strong>: 百度团队开源的无限OCR（Unlimited OCR）系统，实现了「一次性长视野解析」的新范式。不同于传统OCR按区域逐块识别，Unlimited-OCR可一次性「看见」整页文本并理解上下文关系，大幅提升长文档识别的准确率和效率。</p>
-<p><strong>适用场景</strong>：</p>
-<ul>
-<li>📄 古籍/合同/发票等大幅面文档的批量识别</li>
-<li>🤖 与大模型结合实现端到端的文档理解管道</li>
-<li>💼 企业级文档数字化改造</li>
-</ul>
-<p><strong>亮点</strong>: 上线不到一周飙升至⭐3.4k，百度在OCR领域的多年积累转化为可落地的开源产品。</p>
-<p>🔗 <a href="https://github.com/baidu/Unlimited-OCR">https://github.com/baidu/Unlimited-OCR</a></p>
-<hr>
-
-<h3>⭐ 2. Forsy-AI/agent-apprenticeship</h3>
-<p><strong>简介</strong>: Agent学徒系统（Agent Apprenticeship）构建了一个让AI Agent从真实工作中学习的生态系统。Agent通过「工作→记录→复盘循环」积累经验，将单次工作的最佳实践提炼为可复用的技能，实现从「人工手写Skill」到「Agent自学生成Skill」的范式跃迁。</p>
-<p><strong>适用场景</strong>：</p>
-<ul>
-<li>🤖 需要Agent长期自主完成复杂工作流的团队</li>
-<li>🏭 工作流标准化和自动化</li>
-<li>📚 希望构建Agent技能知识库的企业</li>
-</ul>
-<p><strong>亮点</strong>: 代表Agent开发的下一个重要方向——不是为Agent写代码，而是让Agent从工作中自学。</p>
-<p>🔗 <a href="https://github.com/Forsy-AI/agent-apprenticeship">https://github.com/Forsy-AI/agent-apprenticeship</a></p>
-<hr>
-
-<h3>⭐ 3. cloudflare/security-audit-skill</h3>
-<p><strong>简介</strong>: Cloudflare官方开源的安全审计Agent技能（Security Audit Skill）。它将安全审计流程标准化为Agent可执行的「技能」——自动进行多方位的安全扫描，生成机器可验证的安全报告，并支持CI/CD集成。每个审计结果都是独立可验证的，而非AI的「据我所知」式回答。</p>
-<p><strong>适用场景</strong>：</p>
-<ul>
-<li>🔒 开源项目上架前的自动安全审查</li>
-<li>🚀 CI/CD管道中集成安全门禁</li>
-<li>🛡️ 中小团队低成本安全审计</li>
-</ul>
-<p><strong>亮点</strong>: 大型科技公司正在将专业安全能力封装为Agent技能，预示着「AI开发+安全Skill」将成为标配。</p>
-<p>🔗 <a href="https://github.com/cloudflare/security-audit-skill">https://github.com/cloudflare/security-audit-skill</a></p>
-<hr>
-
-<h2>📊 本周 GitHub 趋势关键词</h2>
+<h3>⭐ 1. baidu/Unlimited-OCR — 百度开源"一口气读完"的 OCR</h3>
+<p><a href="https://github.com/baidu/Unlimited-OCR">baidu/Unlimited-OCR</a> | ⭐ 3.4k | 🏷️ 文档理解 / OCR</p>
+<p>你用过那种扫描一页合同要等半天的OCR吗？Unlimited-OCR的思路完全不同——它不是一行一行地"看"，而是一次性整页整页地理解，就像人眼扫读一样。几十页的文档丢进去，不用切割、不用拼接，直接出结果。</p>
+<p><strong>能做什么</strong>：批量处理合同、发票、古籍扫描 | 配合大模型做文档知识库 | 企业文档数字化。关键是——免费开源。</p>
+<p><strong>为什么火</strong>：上线不到一周就拿了3400多星。OCR是老赛道了，但"不限长度+完整理解"这个姿势，百度这次确实做出了新东西。</p>
+<h3>⭐ 2. Forsy-AI/agent-apprenticeship — 让AI Agent像学徒一样成长</h3>
+<p><a href="https://github.com/Forsy-AI/agent-apprenticeship">Forsy-AI/agent-apprenticeship</a> | ⭐ 849 | 🏷️ AI Agent / 自动化</p>
+<p>现在的AI Agent基本是"干完就忘"——每次任务都是重新开始，经验全部归零。Agent Apprenticeship换了个思路：Agent每次完成工作后，会把过程记录下来，复盘提炼，把踩过的坑变成可复用的技能。下次遇到类似问题，直接调用经验，不再从零开始。</p>
+<p><strong>能做什么</strong>：构建"越用越聪明"的自动化工作流 | 多个Agent组队协同学习 | 把人工经验沉淀为Agent技能库</p>
+<p><strong>为什么值得关注</strong>：如果说传统Agent开发是"给工人写操作手册"，那这个项目就是在做"让工人自己写操作手册"。代表了Agent开发从"人工编程"到"自主学习"的范式转变。</p>
+<h3>⭐ 3. cloudflare/security-audit-skill — Cloudflare把安全审计做成了"一键技能"</h3>
+<p><a href="https://github.com/cloudflare/security-audit-skill">cloudflare/security-audit-skill</a> | ⭐ 483 | 🏷️ 安全审计 / DevOps</p>
+<p>代码写完了，谁来帮你看有没有安全漏洞？Cloudflare开源了一个安全审计技能包，可以嵌入到AI编程助手里，让它自动帮你检查代码安全问题。不是靠AI"猜"，而是按照标准化的安全检查流程来执行，结果可追溯、可验证。</p>
+<p><strong>能做什么</strong>：开源项目上架前的安全自查 | CI/CD管道里的自动安全门禁 | 小团队零成本安全审计</p>
+<p><strong>为什么值得关注</strong>：大厂把安全能力"技能化"了，意味着以后即使你不是安全专家，只要装了对应的Skill，AI就能帮你做基本的安全审查。这是"安全民主化"的开端。</p>
+<h2>📊 本周开源趋势关键词</h2>
 <table>
-<thead>
-<tr><th>关键词</th><th>热度</th><th>代表项目</th></tr>
-</thead>
-<tbody>
-<tr><td>AI Agent自主学习</td><td>🔥🔥🔥</td><td>agent-apprenticeship</td></tr>
-<tr><td>文档理解OCR</td><td>🔥🔥🔥</td><td>Unlimited-OCR</td></tr>
-<tr><td>安全Audit Skill化</td><td>🔥🔥🔥</td><td>security-audit-skill</td></tr>
-<tr><td>Claude Code工具链</td><td>🔥🔥</td><td>recall, looper</td></tr>
-<tr><td>AI视觉交互</td><td>🔥🔥</td><td>liquid-glass, sonic-topography</td></tr>
-</tbody>
+<tr><th>趋势</th><th style="text-align:center">热度</th><th>一句话</th></tr>
+<tr><td>AI Agent自主学习</td><td style="text-align:center">🔥🔥🔥</td><td>Agent正在从"工具"进化为"学徒"</td></tr>
+<tr><td>文档理解OCR</td><td style="text-align:center">🔥🔥🔥</td><td>百度发力，开源OCR进入"无限长度"时代</td></tr>
+<tr><td>安全审计Skill化</td><td style="text-align:center">🔥🔥🔥</td><td>大厂把安全能力打包，小团队也能用</td></tr>
 </table>
-
 <hr>
 <p><em>由 Hermes Agent 自动生成 | 2026-06-24</em></p>
-</article>
+
+  </div>
+  <a class="back" href="../">← 返回首页</a>
+</div>
 </body>
 </html>
