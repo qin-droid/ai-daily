@@ -1,13 +1,33 @@
 [
   {
     "date": "2026-06-25",
-    "title": "🐙 GitHub 开源推荐 | 2026-06-25",
-    "desc": "Codex 橙皮书、Motion Skills动画宝典、Apple毛玻璃效果一键实现——这周的开源轮子太香了",
+    "title": "📰 每日AI资讯简报 — 2026年6月26日（周五）",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-25-ai-news.html"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-26",
+    "desc": "Qwen AgentWorld开启智能体新范式、Codex橙皮书2000星领跑、Apple毛玻璃效果组件——AI Agent生态全面爆发",
     "tag": "GitHub 开源推荐",
     "tagType": "trend",
     "source": "GitHub Trending",
     "sourceUrl": "#",
     "contentUrl": "/articles/2026-06-25-github-opensource.html"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "GitHub 趋势日报 | 2026-06-26",
+    "desc": "> 统计周期：2026-06-19 ~ 2026-06-26 | 数据来源：GitHub Search API | 门槛：⭐≥100",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-25-github-trending.html"
   },
   {
     "date": "2026-06-24",
