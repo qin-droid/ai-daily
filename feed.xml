@@ -5,13 +5,27 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Fri, 26 Jun 2026 07:20:00 +0800</lastBuildDate>
+  <lastBuildDate>Fri, 26 Jun 2026 20:00:00 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-06-26</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-26-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-26-github-opensource.html</guid>
+    <pubDate>Fri, 26 Jun 2026 00:00:00 +0800</pubDate>
+    <description>Codex橙皮书1900星领跑、Qwen AgentWorld智能体新范式、Apple毛玻璃效果一键实现——AI Agent生态全面爆发</description>
+  </item>
+  <item>
+    <title>🤖 AI资讯精选 | 2026-06-26</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-26-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-26-ai-news.html</guid>
+    <pubDate>Fri, 26 Jun 2026 00:00:00 +0800</pubDate>
+    <description>OpenAI自研芯片Jalapeño发布、IBM纳米堆叠1000亿晶体管、Anthropic指控阿里2.88亿次蒸馏攻击——AI芯片竞赛全面升级</description>
+  </item>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-06-25</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</guid>
-    <pubDate>Fri, 26 Jun 2026 00:00:00 +0800</pubDate>
+    <pubDate>Thu, 25 Jun 2026 00:00:00 +0800</pubDate>
     <description>Qwen AgentWorld开启智能体新范式、Codex橙皮书2000星领跑、Apple毛玻璃效果组件——AI Agent生态全面爆发</description>
   </item>
   <item>

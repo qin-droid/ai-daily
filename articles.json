@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-06-26",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-26",
+    "desc": "Codex橙皮书1900星领跑、Qwen AgentWorld智能体新范式、Apple毛玻璃效果一键实现——AI Agent生态全面爆发",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-26-github-opensource.html"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "🤖 AI资讯精选 | 2026-06-26",
+    "desc": "OpenAI自研芯片Jalapeño发布、IBM纳米堆叠1000亿晶体管、Anthropic指控阿里2.88亿次蒸馏攻击——AI芯片竞赛全面升级",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-26-ai-news.html"
+  },
+  {
     "date": "2026-06-25",
     "title": "📰 每日AI资讯简报 — 2026年6月26日（周五）",
     "desc": "---",
