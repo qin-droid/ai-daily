@@ -5,8 +5,22 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Fri, 26 Jun 2026 20:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Sat, 27 Jun 2026 07:04:36 +0800</lastBuildDate>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-06-27</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-27-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-27-github-opensource.html</guid>
+    <pubDate>Sat, 27 Jun 2026 20:00:00 +0800</pubDate>
+    <description>Codex橙皮书2100星领跑、Qwen AgentWorld多智能体新范式、Krea 2开源推理——AI Agent生态全面爆发</description>
+  </item>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>GitHub 趋势日报 | 2026-06-27</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-26-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-26-github-trending.html</guid>
+    <pubDate>Fri, 26 Jun 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-06-26</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-26-github-opensource.html</link>
@@ -22,13 +36,6 @@
     <description>OpenAI自研芯片Jalapeño发布、IBM纳米堆叠1000亿晶体管、Anthropic指控阿里2.88亿次蒸馏攻击——AI芯片竞赛全面升级</description>
   </item>
   <item>
-    <title>🐙 GitHub 开源推荐 | 2026-06-25</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</guid>
-    <pubDate>Thu, 25 Jun 2026 00:00:00 +0800</pubDate>
-    <description>Qwen AgentWorld开启智能体新范式、Codex橙皮书2000星领跑、Apple毛玻璃效果组件——AI Agent生态全面爆发</description>
-  </item>
-  <item>
     <title>📰 每日AI资讯简报 — 2026年6月26日（周五）</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-ai-news.html</guid>
@@ -36,18 +43,18 @@
     <description>---</description>
   </item>
   <item>
+    <title>🐙 GitHub 开源推荐 | 2026-06-26</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</guid>
+    <pubDate>Thu, 25 Jun 2026 00:00:00 +0800</pubDate>
+    <description>Qwen AgentWorld开启智能体新范式、Codex橙皮书2000星领跑、Apple毛玻璃效果组件——AI Agent生态全面爆发</description>
+  </item>
+  <item>
     <title>GitHub 趋势日报 | 2026-06-26</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-trending.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-trending.html</guid>
     <pubDate>Thu, 25 Jun 2026 00:00:00 +0800</pubDate>
     <description>> 统计周期：2026-06-19 ~ 2026-06-26 | 数据来源：GitHub Search API | 门槛：⭐≥100</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026-06-25</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-opensource.html</guid>
-    <pubDate>Thu, 25 Jun 2026 00:00:00 +0800</pubDate>
-    <description>Codex 橙皮书、Motion Skills动画宝典、Apple毛玻璃效果一键实现——这周的开源轮子太香了</description>
   </item>
   <item>
     <title>📰 每日AI资讯简报</title>
@@ -146,27 +153,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-19-github-opensource.html</guid>
     <pubDate>Fri, 19 Jun 2026 00:00:00 +0800</pubDate>
     <description>本周最值得关注的3个开源项目：vercel/eve (Agent全栈框架)、tamnd/kage (去JS网页快照)、best-humanizer-handbook (AI写作去味指南)</description>
-  </item>
-  <item>
-    <title>🤖 AI资讯精选 | 2026-06-19</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-ai-news.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-ai-news.html</guid>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0800</pubDate>
-    <description>> 今日AI圈：Arbor框架2.5倍超越Claude Code/Codex，Anthropic修复Claude Design"吞Token"问题，Weibo 3B模型挑战千亿参数大模型</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-06-19</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-github-trending.html</guid>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0800</pubDate>
-    <description>总计 30 个热门仓库（最近7天创建，⭐≥100）</description>
-  </item>
-  <item>
-    <title>🚀 GitHub 开源精选 | 2026-06-18</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-18-github-opensource.html</guid>
-    <pubDate>Thu, 18 Jun 2026 00:00:00 +0800</pubDate>
-    <description>本周最值得关注的3个开源项目：ponytail (3万星AI编程哲学)、Open-Interface (开源桌面AI助手)、kage (去JS极简浏览器)</description>
   </item>
 </channel>
 </rss>
