@@ -23,6 +23,9 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
 .content a { color: var(--accent); }
 .content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
 .content blockquote { border-left: 3px solid var(--accent); margin: 16px 0; padding: 4px 16px; color: var(--text2); }
+.content table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+.content th, .content td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
+.content th { background: var(--bg2); font-weight: 600; }
 </style>
 </head>
 <body>
@@ -32,42 +35,43 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
   <div class="date">2026-06-28</div>
   <div class="content">
     <blockquote>
-      <p>Codex橙皮书持续霸榜、DeepSeek投机解码提速、Krea 2开源推理——本周AI开发者生态全面爆发</p>
+      <p>Codex橙皮书持续霸榜、DeepSeek投机解码来了、经典FPS游戏源码开源——今天有好戏！</p>
     </blockquote>
 
-    <h3>⭐ 1. bozhouDev/codex-orange-book — Codex 橙皮书</h3>
-    <p><strong>⭐ 2.2k | 📈 +442/d | 🌐 HTML</strong></p>
-    <p>如果你是AI编程新手，或者想系统掌握 Codex CLI 的完整工作流，这本「橙皮书」就是你的最佳起点。它是一份<strong>全链路中文指南</strong>，从环境搭建到实战项目，再到高级技巧，甚至包含可下载的 PDF 版本。本周持续霸榜 GitHub Trending 前列，足见其质量之高。</p>
-    <p><strong>推荐理由</strong>：中文开发者友好、内容系统全面、适合从入门到进阶</p>
-    <p>🔗 <a href="https://github.com/bozhouDev/codex-orange-book">https://github.com/bozhouDev/codex-orange-book</a></p>
-
-    <hr>
-
-    <h3>⭐ 2. deepseek-ai/DeepSpec — DeepSeek 投机解码框架</h3>
-    <p><strong>⭐ 1.2k | 📈 +622/d | 🐍 Python</strong></p>
-    <p>DeepSeek 官方出品的<strong>投机解码（Speculative Decoding）训练框架</strong>，能让大模型推理速度提升2-3倍而质量几乎不变。上周刚开源便以+622的日增长量冲上榜单，是当前AI推理优化领域最前沿的工具之一。适合所有需要降低推理成本、提升响应速度的团队。</p>
-    <p><strong>推荐理由</strong>：官方出品、推理加速利器、Python友好、技术门槛适中</p>
+    <h3>⭐ 1. deepseek-ai/DeepSpec — DeepSeek 官方投机解码框架</h3>
+    <p><strong>⭐ 1.2k | 📈 +622/日 | 🐍 Python | DeepSeek官方出品</strong></p>
+    <p>DeepSeek 官方开源的<strong>投机解码（Speculative Decoding）训练框架</strong>，能让大模型推理速度提升 <strong>2-3倍</strong> 而输出质量几乎不变。原理是用一个轻量"草稿模型"快速生成候选token，再由主模型批量验证——在不牺牲质量的前提下大幅降低推理延迟。</p>
+    <p><strong>推荐理由</strong>：如果你是AI应用开发者，这个项目能帮你<strong>直接降低推理成本</strong>。DeepSeek 出品意味着经过了严格测试和优化，Python接口友好，适合集成到现有推理管线中。</p>
     <p>🔗 <a href="https://github.com/deepseek-ai/DeepSpec">https://github.com/deepseek-ai/DeepSpec</a></p>
 
     <hr>
 
-    <h3>⭐ 3. krea-ai/krea-2 — Krea 2 推理代码开源</h3>
-    <p><strong>⭐ 329 | 📈 +55/d | 🐍 Python</strong></p>
-    <p>AI图像生成平台 Krea 正式开源其第二代模型的<strong>官方推理代码</strong>，让开发者可以在本地运行 Krea 2 的图像生成和编辑能力。配合社区配套的 ComfyUI 条件优化节点，AI图像创作的工作流变得更加灵活和可定制。</p>
-    <p><strong>推荐理由</strong>：商业级图像模型开源、可本地部署、生态丰富</p>
-    <p>🔗 <a href="https://github.com/krea-ai/krea-2">https://github.com/krea-ai/krea-2</a></p>
+    <h3>⭐ 2. bozhouDev/codex-orange-book — Codex 橙皮书</h3>
+    <p><strong>⭐ 2.2k | 📈 +442/日 | 🌐 HTML | AI编程入门神书</strong></p>
+    <p>这本周持续霸榜的"橙皮书"是一份<strong>Codex CLI 全链路中文指南</strong>，从环境搭建到实战项目再到高级技巧一应俱全。最贴心的是还提供了<strong>可下载的 PDF 版本</strong>，方便离线阅读。对中文开发者极其友好。</p>
+    <p><strong>推荐理由</strong>：无论你是AI编程新手还是想系统掌握Codex的老手，这份手册都是最佳入门材料。内容更新及时、社区反馈积极，已经连续多天霸榜 GitHub Trending。</p>
+    <p>🔗 <a href="https://github.com/bozhouDev/codex-orange-book">https://github.com/bozhouDev/codex-orange-book</a></p>
 
-    <h2>📊 本周 GitHub 趋势关键词</h2>
+    <hr>
+
+    <h3>⭐ 3. BohemiaInteractive/CWR — 冷战突击重制版源码</h3>
+    <p><strong>⭐ 661 | 📈 +110/日 | 🎮 C++ | 经典FPS开源</strong></p>
+    <p>波希米亚互动（《Arma》系列开发商）正式开源了《Arma: 冷战突击》重制版的<strong>完整C++源码</strong>！这是游戏史上最经典的军事模拟射击游戏之一，开源后不仅可供玩家重温经典，更是游戏开发学习的绝佳教材。</p>
+    <p><strong>推荐理由</strong>：完整商业游戏源码——从渲染引擎到物理系统、从AI行为到网络同步，全部开放阅读。游戏开发者、C++学习者、军事模拟爱好者不容错过。</p>
+    <p>🔗 <a href="https://github.com/BohemiaInteractive/CWR">https://github.com/BohemiaInteractive/CWR</a></p>
+
+    <h2>📊 本周热词</h2>
     <table>
-      <tr><th>关键词</th><th>热度</th><th>代表项目</th></tr>
-      <tr><td>AI Agent 框架</td><td>🔥🔥🔥</td><td>Qwen-AgentWorld, AgentSpace</td></tr>
-      <tr><td>推理加速</td><td>🔥🔥🔥</td><td>DeepSpec</td></tr>
-      <tr><td>AI 编程入门</td><td>🔥🔥</td><td>codex-orange-book</td></tr>
-      <tr><td>AI 图像生成</td><td>🔥🔥</td><td>krea-2</td></tr>
+      <tr><th>热词</th><th>热度</th><th>代表项目</th></tr>
+      <tr><td>🧠 推理加速</td><td>🔥🔥🔥</td><td>DeepSpec</td></tr>
+      <tr><td>📚 AI编程指南</td><td>🔥🔥🔥</td><td>codex-orange-book</td></tr>
+      <tr><td>🎮 游戏源码</td><td>🔥🔥</td><td>CWR</td></tr>
+      <tr><td>🤖 AI Agent</td><td>🔥🔥</td><td>Qwen-AgentWorld, AgentSpace</td></tr>
+      <tr><td>🔒 安全研究</td><td>🔥</td><td>exploitarium</td></tr>
     </table>
 
     <hr>
-    <p><em>由 Hermes Agent 自动生成</em></p>
+    <p><em>由 Hermes Agent 自动生成 | 2026-06-28</em></p>
   </div>
   <a class="back" href="../">← 返回首页</a>
 </div>
