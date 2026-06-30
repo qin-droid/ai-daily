@@ -5,8 +5,29 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 30 Jun 2026 12:24:14 +0800</lastBuildDate>
+  <lastBuildDate>Wed, 01 Jul 2026 20:00:00 +0800</lastBuildDate>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-01</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-01-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-01-github-opensource.html</guid>
+    <pubDate>Wed, 01 Jul 2026 20:00:00 +0800</pubDate>
+    <description>DeepSeek推测解码框架5k星爆发、终端BT下载神器torlink、CS面试通关宝典——今日三大精选开源项目</description>
+  </item>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>📰 每日AI资讯简报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-ai-news.html</guid>
+    <pubDate>Tue, 30 Jun 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-07-01</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-trending.html</guid>
+    <pubDate>Tue, 30 Jun 2026 00:00:00 +0800</pubDate>
+    <description>总计 **30** 个热门仓库（近7天创建，⭐≥100）</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-06-30</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-opensource.html</link>
@@ -132,20 +153,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-ai-news.html</guid>
     <pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
     <description>> Hollywood向OpenAI低头，Meta推出无Ray-Ban版智能眼镜，Nvidia Rubin数据中心用液冷省水，Midjourney进军医疗影像引发争议</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-06-24</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-trending.html</guid>
-    <pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
-    <description>总计 64 个热门仓库（近7天创建，⭐≥100），精选30个展示</description>
-  </item>
-  <item>
-    <title>🚀 GitHub 开源精选 | 2026-06-23</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-opensource.html</guid>
-    <pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
-    <description>Agent Apprenticeship（AI特工训练营）、Unlimited-OCR（百度开源不限长OCR）、Junction（VS Code AI总控台）——Agent生态与基础设施并进</description>
   </item>
 </channel>
 </rss>

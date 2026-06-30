@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-01",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-01",
+    "desc": "DeepSeek推测解码框架5k星爆发、终端BT下载神器torlink、CS面试通关宝典——今日三大精选开源项目",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-01-github-opensource.html"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-30-ai-news.html"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "GitHub 趋势日报 | 2026-07-01",
+    "desc": "总计 **30** 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-30-github-trending.html"
+  },
+  {
     "date": "2026-06-30",
     "title": "🐙 GitHub 开源推荐 | 2026-06-30",
     "desc": "百度Unlimited-OCR 12K Star爆发、DeepSeek投机解码框架、Cloudflare安全审计Agent技能——今日三大精选项目",
