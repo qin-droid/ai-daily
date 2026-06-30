@@ -5,14 +5,15 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-    <item>
+  <lastBuildDate>Tue, 30 Jun 2026 12:24:14 +0800</lastBuildDate>
+  <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
     <title>🐙 GitHub 开源推荐 | 2026-06-30</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-opensource.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-opensource.html</guid>
     <pubDate>Tue, 30 Jun 2026 00:00:00 +0800</pubDate>
     <description>百度Unlimited-OCR 12K Star爆发、DeepSeek投机解码框架、Cloudflare安全审计Agent技能——今日三大精选项目</description>
   </item>
-  <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>🤖 AI资讯精选 | 2026-06-30</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-29-ai-news.html</link>
@@ -145,13 +146,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-23-github-opensource.html</guid>
     <pubDate>Tue, 23 Jun 2026 00:00:00 +0800</pubDate>
     <description>Agent Apprenticeship（AI特工训练营）、Unlimited-OCR（百度开源不限长OCR）、Junction（VS Code AI总控台）——Agent生态与基础设施并进</description>
-  </item>
-  <item>
-    <title>🚀 GitHub 开源精选 | 2026-06-22</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-22-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-22-github-opensource.html</guid>
-    <pubDate>Mon, 22 Jun 2026 00:00:00 +0800</pubDate>
-    <description>Vercel Eve（Agent框架）、WebKubernetes（浏览器K8s）、Anthropic Launch Your Agent —— 本周AI Agent基础设施全面爆发</description>
   </item>
 </channel>
 </rss>
