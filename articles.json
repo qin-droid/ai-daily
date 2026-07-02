@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-07-02",
+    "title": "🤖 AI资讯精选 | 2026-07-03",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-02-ai-news.html"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "GitHub 趋势日报 | 2026-07-03",
+    "desc": "总计 30 个热门仓库（最近7天创建，⭐≥100，按星数排序）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-02-github-trending.html"
+  },
+  {
+    "date": "2026-07-02",
     "title": "🐙 GitHub 开源推荐 | 2026-07-02",
     "desc": "CS-Fundamentals面试通关宝典1.3k⭐、sim-use让AI操控手机、webtoon-harness 27个Agent联手画漫画——今日三大精选开源项目",
     "tag": "GitHub 开源推荐",
