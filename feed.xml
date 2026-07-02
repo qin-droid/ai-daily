@@ -5,8 +5,15 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Wed, 01 Jul 2026 12:20:12 +0800</lastBuildDate>
+  <lastBuildDate>Thu, 02 Jul 2026 12:12:17 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-02</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-02-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-02-github-opensource.html</guid>
+    <pubDate>Thu, 02 Jul 2026 00:00:00 +0800</pubDate>
+    <description>CS-Fundamentals面试通关宝典1.3k⭐、sim-use让AI操控手机、webtoon-harness 27个Agent联手画漫画——今日三大精选开源项目</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-07-01</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-01-github-opensource.html</link>
@@ -124,7 +131,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-trending.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-25-github-trending.html</guid>
     <pubDate>Thu, 25 Jun 2026 00:00:00 +0800</pubDate>
-    <description>&gt; 统计周期：2026-06-19 ~ 2026-06-26 | 数据来源：GitHub Search API | 门槛：⭐≥100</description>
+    <description>> 统计周期：2026-06-19 ~ 2026-06-26 | 数据来源：GitHub Search API | 门槛：⭐≥100</description>
   </item>
   <item>
     <title>📰 每日AI资讯简报</title>
@@ -139,13 +146,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-github-trending.html</guid>
     <pubDate>Wed, 24 Jun 2026 00:00:00 +0800</pubDate>
     <description>## 🤖 AI/机器学习</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026-06-24</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-24-github-opensource.html</guid>
-    <pubDate>Wed, 24 Jun 2026 00:00:00 +0800</pubDate>
-    <description>百度祭出无限长文本OCR、AI Agent学会&quot;学徒制&quot;、Cloudflare把安全审计打包成技能——本周值得Star的项目来了</description>
   </item>
 </channel>
 </rss>
