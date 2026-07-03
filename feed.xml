@@ -5,8 +5,15 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Thu, 02 Jul 2026 23:05:29 +0800</lastBuildDate>
+  <lastBuildDate>Fri, 03 Jul 2026 12:00:00 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-03</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-03-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-03-github-opensource.html</guid>
+    <pubDate>Thu, 03 Jul 2026 00:00:00 +0800</pubDate>
+    <description>Caveman原始人AI助手82k⭐省65%token费、Vibe-Trading AI量化交易17k⭐、video-use AI视频编辑14k⭐——今日三大精选开源项目</description>
+  </item>
   <item>
     <title>🤖 AI资讯精选 | 2026-07-03</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-02-ai-news.html</link>
