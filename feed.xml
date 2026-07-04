@@ -5,7 +5,14 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Sat, 04 Jul 2026 12:18:28 +0800</lastBuildDate>
+  <lastBuildDate>Sat, 04 Jul 2026 23:12:17 +0800</lastBuildDate>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026年7月5日</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-05-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-05-github-opensource.html</guid>
+    <pubDate>Sun, 05 Jul 2026 00:00:00 +0800</pubDate>
+    <description>周日精选：本地运行大模型的完全指南、编码 Agent 省 Token 神器、让 Claude 真正理解视频</description>
+  </item>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月4日</title>

@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "skills": {
+    "chatgpt-apps": {
+      "source": "openai/skills",
+      "sourceType": "github",
+      "skillPath": "skills/.curated/chatgpt-apps/SKILL.md",
+      "computedHash": "7c9deab8ef5dd5dd3a4d99cb93dbdddd3e413cc12d9b196922ac4a9d3a62ce4b"
+    },
+    "gsap-frameworks": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-frameworks/SKILL.md",
+      "computedHash": "08b3917649997d53f94a9831b5db21afafafc89ee3a9a020d2471c69c336bdd6"
+    },
+    "gsap-performance": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-performance/SKILL.md",
+      "computedHash": "da73dbf11663abb1a880e1796367f84b19877db4a16186b36d1dce96fe0ce983"
+    },
+    "gsap-timeline": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-timeline/SKILL.md",
+      "computedHash": "e7c07909bb427f74e1bda1ff716bd97ae166269382f7abbd649c0d1ba8f6e0ec"
+    },
+    "gsap-utils": {
+      "source": "greensock/gsap-skills",
+      "sourceType": "github",
+      "skillPath": "skills/gsap-utils/SKILL.md",
+      "computedHash": "72af4a036d417d6eaef7478eca2f28e760631fb78db822ba34a9c706797aab62"
+    }
+  }
+}

@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-05",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月5日",
+    "desc": "周日精选：本地运行大模型的完全指南、编码 Agent 省 Token 神器、让 Claude 真正理解视频",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-05-github-opensource.html"
+  },
+  {
     "date": "2026-07-04",
     "title": "🐙 GitHub 开源推荐 | 2026年7月4日",
     "desc": "周末精选：本地运行大模型的最全指南、iOS 虚拟定位神器、任天堂 DS 复古 CSS 框架",

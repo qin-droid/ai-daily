@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐙 GitHub 开源推荐 | 2026年7月5日 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.content table { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
+.content th, .content td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
+.content th { background: var(--accent); color: white; }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>🐙 GitHub 开源推荐 | 2026年7月5日</h1>
+  <div class="date">2026-07-05</div>
+  <div class="content">
+    <blockquote>
+    <p>📅 周日精选：本地运行大模型的完全指南、编码 Agent 省 Token 神器、让 Claude 真正理解视频</p>
+    </blockquote>
+
+    <hr>
+
+    <h2>📖 jamesob/local-llm — 本地运行大模型的"百科全书"</h2>
+
+    <p><strong>⭐ 739 · +370/天 · Shell</strong></p>
+
+    <p>🔗 <a href="https://github.com/jamesob/local-llm">https://github.com/jamesob/local-llm</a></p>
+
+    <p>如果你不想每个月给 OpenAI/Anthropic 交几百块 API 费，想在自家电脑上跑 AI，那这个项目就是你的"圣经"。作者把自己关于<strong>本地运行大语言模型</strong>的所有知识整理成了一个知识库——从硬件选择（买什么显卡、多少内存才够）、到各种框架对比（llama.cpp、Ollama、LM Studio）、到模型下载渠道、性能调优技巧，全都有。一天涨了近 370 星，说明大家真的需要这种接地气的实战指南。</p>
+
+    <p><strong>推荐理由</strong>：不想被云厂商"割韭菜"、想在本地跑 AI 的玩家必备。从零开始，手把手教你搭建自己的 AI 服务器。适合所有想自部署 LLM 的开发者。</p>
+
+    <hr>
+
+    <h2>⛽ Kulaxyz/token-diet — 编码 Agent 的"燃油添加剂"</h2>
+
+    <p><strong>⭐ 447 · +224/天 · Shell</strong></p>
+
+    <p>🔗 <a href="https://github.com/Kulaxyz/token-diet">https://github.com/Kulaxyz/token-diet</a></p>
+
+    <p>如果你在用 Claude Code、Codex、Cursor、Windsurf 或 Cline 等 AI 编码工具，这个开源项目能直接帮你<strong>省下约 31% 的 Token 费用</strong>。它本质上是一个持续运行的 Token 优化引擎——通过优化提示词结构、压缩上下文、减少冗余输出，让你的编码 Agent 用更少的 Token 干更多的活。安装即用，无需任何配置改动。一天暴涨 224 星，说明这个痛点实在太真实了——AI 编码工具好用是好用，但 Token 账单看得人心疼。</p>
+
+    <p><strong>推荐理由</strong>：AI 编码重度用户的经济学解决方案。省下的钱够你多跑好几个项目。即装即用，零配置。</p>
+
+    <hr>
+
+    <h2>🎬 HUANGCHIHHUNGLeo/claude-real-video — 让 Claude 真正"看懂"视频</h2>
+
+    <p><strong>⭐ 730 · +146/天 · Python</strong></p>
+
+    <p>🔗 <a href="https://github.com/HUANGCHIHHUNGLeo/claude-real-video">https://github.com/HUANGCHIHHUNGLeo/claude-real-video</a></p>
+
+    <p>Claude 虽然有多模态能力，但直接扔一个视频进去，它只能看到零散的截图。这个项目解决了这个问题——它实现了<strong>场景感知 + 去重帧 + 语音转录</strong>的完整流水线：先分析视频中的场景变化，智能提取关键帧（而非每帧全抓），同时转录语音内容，最后把帧和文本一起喂给 Claude 进行理解。支持 URL 输入和本地文件，一键运行。对于需要分析长视频、监控视频、教学视频或影视内容的场景非常实用。</p>
+
+    <p><strong>推荐理由</strong>：AI 视频分析的实操利器，解决了多模态模型"看不懂视频"的核心痛点。视频创作者、内容分析和研究人员的实用工具。</p>
+
+    <hr>
+
+    <h2>📊 一句话总结</h2>
+
+    <table>
+    <thead>
+    <tr>
+      <th>项目</th>
+      <th>一句话</th>
+      <th>适合人群</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td><strong>local-llm</strong> ⭐739</td>
+      <td>本地跑大模型的实战百科全书</td>
+      <td>AI自部署用户</td>
+    </tr>
+    <tr>
+      <td><strong>token-diet</strong> ⭐447</td>
+      <td>编码 Agent 的 Token 节能引擎，省 31% 费用</td>
+      <td>AI 编码重度用户</td>
+    </tr>
+    <tr>
+      <td><strong>claude-real-video</strong> ⭐730</td>
+      <td>场景感知+去重帧+转录，让 Claude 看懂视频</td>
+      <td>视频分析/创作者</td>
+    </tr>
+    </tbody>
+    </table>
+
+    <hr>
+
+    <p><em>由 Hermes Agent 自动生成 | 2026-07-05</em></p>
+  </div>
+  <a class="back" href="../">← 返回首页</a>
+</div>
+</body>
+</html>
