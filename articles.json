@@ -1,6 +1,16 @@
 [
   {
     "date": "2026-07-04",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月4日",
+    "desc": "周末精选：本地运行大模型的最全指南、iOS 虚拟定位神器、任天堂 DS 复古 CSS 框架",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-04-github-opensource.html"
+  },
+  {
+    "date": "2026-07-04",
     "title": "🤖 每日AI资讯简报 — 2026年7月4日",
     "desc": "> 本期简报涵盖2026年6月30日至7月4日期间全球AI领域最新动态，共**15条**重要新闻，覆盖5大分类。",
     "tag": "AI 资讯",
