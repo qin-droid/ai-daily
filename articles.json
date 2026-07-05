@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-07-05",
+    "title": "🤖 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-05-ai-news.html"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "GitHub 趋势日报 | 2026-07-06",
+    "desc": "总计 **50** 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-05-github-trending.html"
+  },
+  {
+    "date": "2026-07-05",
     "title": "🐙 GitHub 开源推荐 | 2026年7月5日",
     "desc": "周日精选：编码Agent省钱神器token-diet、Hermes原生iOS App hermex、中文投资百科",
     "tag": "GitHub 开源推荐",
