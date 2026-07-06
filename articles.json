@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-07",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-07",
+    "desc": "今日精选 3 个热门开源项目：AI安全测试平台T3MP3ST 2600⭐、开源科研协作OpenScience 750⭐、编码Agent省钱神器token-diet",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-07-github-opensource.html"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "📰 Daily AI News Briefing | 2026-07-07",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-06-ai-news.html"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "GitHub 趋势日报 | 2026-07-07",
+    "desc": "总计 30 个热门仓库（最近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-06-github-trending.html"
+  },
+  {
     "date": "2026-07-06",
     "title": "🐙 GitHub 开源推荐 | 2026年7月6日",
     "desc": "今日精选 3 个热门开源项目，涵盖安全测试、游戏移植和 AI 创业",
