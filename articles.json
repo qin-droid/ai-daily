@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-07-07",
+    "title": "🤖 每日AI资讯简报 — 2026年7月8日",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-07-ai-news.html"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "GitHub 趋势日报 | 2026-07-08",
+    "desc": "> 数据来源：GitHub Search API (`created:>2026-07-01 stars:>=100`)，共 30 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-07-github-trending.html"
+  },
+  {
+    "date": "2026-07-07",
     "title": "🐙 GitHub 开源推荐 | 2026年7月7日",
     "desc": "今日精选 3 个项目：DNSGlobe全局DNS检测、Codex-X桌面管理器、Chromeless零Chrome浏览器",
     "tag": "GitHub 开源推荐",
