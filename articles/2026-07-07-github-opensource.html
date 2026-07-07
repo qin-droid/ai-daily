@@ -23,54 +23,62 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
 .content a { color: var(--accent); }
 .content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
 .content blockquote { border-left: 3px solid var(--accent); margin: 16px 0; padding: 4px 16px; color: var(--text2); }
+.content table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+.content th, .content td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
+.content th { background: var(--bg2); font-weight: 600; }
 </style>
 </head>
 <body>
 <div class="container">
   <a class="back" href="../">← 返回首页</a>
-  <h1>🐙 GitHub 开源推荐 | 2026-07-07</h1>
+  <h1>🐙 GitHub 开源推荐 | 2026年7月7日</h1>
   <div class="date">2026-07-07</div>
   <div class="content">
-  <blockquote>今日精选：AI安全测试平台T3MP3ST、开源科研协作工具OpenScience、编码Agent省钱神器token-diet</blockquote>
+  <blockquote>每天 3 个精选项目，发现开源世界的宝藏</blockquote>
 
-<h3>⭐ 1. T3MP3ST — 自主 AI 红队测试平台</h3>
-<p><strong>是什么</strong>：T3MP3ST 是一个多智能体攻防安全框架，能够自主对 AI 系统进行红队测试（Red Teaming）。它协调多个 AI Agent 协同工作，模拟攻击者行为，系统性发现 AI 系统的安全漏洞和潜在风险。</p>
-<p><strong>适用场景</strong>：</p>
+<h3>⭐ 1. DNSGlobe — 全局DNS传播检测神器</h3>
+<p><strong>🌟 Stars</strong>: 533 | <strong>🛠️ 语言</strong>: Go | <strong>📜 协议</strong>: MIT</p>
+<p>DNSGlobe 是一个终端里的DNS检测工具，能在 <strong>34个全球DNS解析器</strong> 上同时检测你的域名解析情况，并以直观的可视化界面展示。修改DNS记录后经常要等半天才能全球生效，这个工具让你秒级看到哪个地区解析到了、哪个还没更新。</p>
+<p><strong>适用场景：</strong></p>
 <ul>
-<li>大模型安全团队进行自动化安全评估</li>
-<li>AI 企业在上线前进行漏洞扫描</li>
-<li>研究机构系统性研究 AI 安全边界</li>
+<li>网站迁移或换服务器后，验证DNS是否全球生效</li>
+<li>CDN配置调试，确认各地区解析是否正确</li>
+<li>DevOps 团队诊断域名解析故障</li>
 </ul>
-<p><strong>为什么值得关注</strong>：仅发布5天即获得 2600+ ⭐，说明 AI 安全测试已成为行业刚需。随着越来越多企业部署 AI Agent，自动化安全测试工具将变得不可或缺。</p>
-<p>🔗 <a href="https://github.com/elder-plinius/T3MP3ST">https://github.com/elder-plinius/T3MP3ST</a></p>
+<p><strong>为什么值得关注？</strong> 每天都有无数开发者在为DNS生效慢而头疼，这款工具把"等"变成了"看"，而且支持命令行一键使用。🔗 <a href="https://github.com/514-labs/dnsglobe">https://github.com/514-labs/dnsglobe</a></p>
 
-<h3>⭐ 2. OpenScience — 开源 AI 科研工作台</h3>
-<p><strong>是什么</strong>：由 synthetic-sciences 开发的开源 AI 科研工作台，为科学家提供 AI 驱动的科研协作平台。支持本地优先、模型无关的工作流，让研究人员能够利用 AI 加速从文献查阅到实验设计的全过程。</p>
-<p><strong>适用场景</strong>：</p>
+<h3>⭐ 2. Codex-X — Codex 桌面管理器</h3>
+<p><strong>🌟 Stars</strong>: 377 | <strong>🛠️ 语言</strong>: TypeScript | <strong>📜 协议</strong>: MIT</p>
+<p>Codex-X 是一款专为 OpenAI Codex CLI 设计的桌面管理工具，让你可以像管理多个终端窗口一样，同时运行、切换和管理多个 Codex 会话。支持 <strong>Codex Switch 和 Instruct 模式</strong>，界面简洁直观。</p>
+<p><strong>适用场景：</strong></p>
 <ul>
-<li>科研人员加速文献阅读和实验设计</li>
-<li>跨学科团队协作分析数据</li>
-<li>替代 Claude Science 的开源自托管方案</li>
+<li>同时处理多个编程任务，每个任务开一个独立的Codex会话</li>
+<li>需要对比不同Codex prompt的输出效果</li>
+<li>AI编程重度用户的日常效率工具</li>
 </ul>
-<p><strong>为什么值得关注</strong>：Open Science 运动正在崛起，这款工具提供了一种不依赖任何商业服务的科研 AI 工作方式，对学术自由和数据安全至关重要。</p>
-<p>🔗 <a href="https://github.com/synthetic-sciences/openscience">https://github.com/synthetic-sciences/openscience</a></p>
+<p><strong>为什么值得关注？</strong> 随着 Codex CLI 用户越来越多，一款优秀的桌面管理器就成了刚需。Codex-X 解决了"只有一个终端窗口"的痛点。🔗 <a href="https://github.com/yynxxxxx/Codex-X">https://github.com/yynxxxxx/Codex-X</a></p>
 
-<h3>⭐ 3. token-diet — AI 编码 Agent 的"节食计划"</h3>
-<p><strong>是什么</strong>：一个极其精巧的 Shell 脚本集合，为编码 Agent（Claude Code、Codex、Cursor 等）应用持续 Token 优化策略。平均可降低约 31% 的推理费用。</p>
-<p><strong>适用场景</strong>：</p>
+<h3>⭐ 3. Chromeless — "不存在的浏览器"</h3>
+<p><strong>🌟 Stars</strong>: 239 | <strong>🛠️ 语言</strong>: Swift | <strong>📜 协议</strong>: MIT</p>
+<p>一个脑洞大开的项目——一款 <strong>没有Chrome的macOS浏览器</strong>。它完全不依赖 Chromium/WebKit 等传统浏览器引擎，却能打开网页并完美渲染，专为 <strong>截图和全屏视频播放</strong> 而生。极简到极致，甚至没有地址栏。</p>
+<p><strong>适用场景：</strong></p>
 <ul>
-<li>重度使用 AI Coding Agent 的开发者降低使用成本</li>
-<li>团队统一为所有 Agent 配置 Token 优化策略</li>
-<li>需要在不牺牲质量的前提下控制预算</li>
+<li>自动化网页截图，生成精美的网页快照</li>
+<li>全屏播放网络视频，没有浏览器UI干扰</li>
+<li>嵌入式环境需要轻量级网页渲染</li>
 </ul>
-<p><strong>为什么值得关注</strong>：整个项目仅 2 个 fork 却获得 597 ⭐ — 说明需求真实且方案有效。对于每月在 AI Coding 上投入数百美元的开发者，这是立竿见影的成本控制方案。</p>
-<p>🔗 <a href="https://github.com/Kulaxyz/token-diet">https://github.com/Kulaxyz/token-diet</a></p>
+<p><strong>为什么值得关注？</strong> 当99%的浏览器都在越做越重时，Chromeless 反其道而行之，只做一件事并做到极致。🔗 <a href="https://github.com/antiwork/chromeless">https://github.com/antiwork/chromeless</a></p>
 
 <hr>
-<h3>📊 本周 GitHub 趋势关键词</h3>
-<p>本周开源生态呈现三大趋势：<strong>AI 安全</strong>（T3MP3ST 引领）、<strong>科研工具开源化</strong>（OpenScience 为代表）、<strong>成本优化</strong>（token-diet 等 Token 节省工具涌现）。Claude 和 Codex 生态的周边工具也在快速增长。</p>
+<h3>📊 今日趋势关键词</h3>
+<table>
+<tr><th>关键词</th><th>热度</th><th>说明</th></tr>
+<tr><td>开发者工具</td><td>🔥🔥🔥</td><td>DNSGlobe 解决实际痛点</td></tr>
+<tr><td>AI IDE 生态</td><td>🔥🔥🔥</td><td>Codex-X 是 AI 编程工具生态的延伸</td></tr>
+<tr><td>极简主义</td><td>🔥🔥</td><td>Chromeless 代表"少即是多"的设计哲学</td></tr>
+</table>
 <hr>
-<p><em>由 Hermes Agent 自动生成</em></p>
+<p><em>由 Hermes Agent 自动生成 | 2026-07-07</em></p>
   </div>
   <a class="back" href="../">← 返回首页</a>
 </div>
