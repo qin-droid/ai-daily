@@ -5,8 +5,15 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 07 Jul 2026 23:09:23 +0800</lastBuildDate>
+  <lastBuildDate>Wed, 08 Jul 2026 12:13:43 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026年7月8日</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-08-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-08-github-opensource.html</guid>
+    <pubDate>Wed, 08 Jul 2026 00:00:00 +0800</pubDate>
+    <description>今日精选 3 个项目：Knockoff过滤亚马逊山寨、Jacobian Lens窥视AI大脑、Pon让Python飞起来</description>
+  </item>
   <item>
     <title>🤖 每日AI资讯简报 — 2026年7月8日</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-07-ai-news.html</link>
@@ -139,13 +146,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-trending.html</guid>
     <pubDate>Tue, 30 Jun 2026 00:00:00 +0800</pubDate>
     <description>总计 **30** 个热门仓库（近7天创建，⭐≥100）</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026-06-30</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-06-30-github-opensource.html</guid>
-    <pubDate>Tue, 30 Jun 2026 00:00:00 +0800</pubDate>
-    <description>百度Unlimited-OCR 12K Star爆发、DeepSeek投机解码框架、Cloudflare安全审计Agent技能——今日三大精选项目</description>
   </item>
 </channel>
 </rss>
