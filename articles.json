@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-10",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月10日",
+    "desc": "具身智能全栈开源矩阵(Robbyant/lingbot)、Amazon反伪品牌神器(knockoff)、reMarkable交互日记(riddle)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-10-github-opensource.html"
+  },
+  {
+    "date": "2026-07-09",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-09-ai-news.html"
+  },
+  {
+    "date": "2026-07-09",
+    "title": "GitHub 趋势日报 | 2026-07-10",
+    "desc": "> 总计 **30** 个热门仓库（近7天创建，⭐≥100）| 数据来源：GitHub Search API",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-09-github-trending.html"
+  },
+  {
     "date": "2026-07-09",
     "title": "🐙 GitHub 开源推荐 | 2026年7月9日",
     "desc": "今日精选 3 个项目：Riddle reMarkable日记、PocketJS嵌入式UI框架、Engram Claude Code科学学习",
