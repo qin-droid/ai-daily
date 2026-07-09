@@ -280,7 +280,696 @@ body {
 
 <script>
 const ARTICLES = [
-  // 示例数据 — 每天 cron 自动更新 articles.json 即可
+  {
+    "date": "2026-07-09",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月9日",
+    "desc": "今日精选 3 个项目：Riddle reMarkable日记、PocketJS嵌入式UI框架、Engram Claude Code科学学习",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-09-github-opensource.html"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月8日",
+    "desc": "今日精选 3 个项目：Knockoff过滤亚马逊山寨、Jacobian Lens窥视AI大脑、Pon让Python飞起来",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-08-github-opensource.html"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "🤖 每日AI资讯简报 — 2026年7月8日",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-07-ai-news.html"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "GitHub 趋势日报 | 2026-07-08",
+    "desc": "> 数据来源：GitHub Search API (`created:>2026-07-01 stars:>=100`)，共 30 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-07-github-trending.html"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月7日",
+    "desc": "今日精选 3 个项目：DNSGlobe全局DNS检测、Codex-X桌面管理器、Chromeless零Chrome浏览器",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-07-github-opensource.html"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "📰 Daily AI News Briefing | 2026-07-07",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-06-ai-news.html"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "GitHub 趋势日报 | 2026-07-07",
+    "desc": "总计 30 个热门仓库（最近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-06-github-trending.html"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月6日",
+    "desc": "今日精选 3 个热门开源项目，涵盖安全测试、游戏移植和 AI 创业",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-06-github-opensource.html"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "🤖 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-05-ai-news.html"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "GitHub 趋势日报 | 2026-07-06",
+    "desc": "总计 **50** 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-05-github-trending.html"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月5日",
+    "desc": "周日精选：编码Agent省钱神器token-diet、Hermes原生iOS App hermex、中文投资百科",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-05-github-opensource.html"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月4日",
+    "desc": "周末精选：本地运行大模型的最全指南、iOS 虚拟定位神器、任天堂 DS 复古 CSS 框架",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-04-github-opensource.html"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "🤖 每日AI资讯简报 — 2026年7月4日",
+    "desc": "> 本期简报涵盖2026年6月30日至7月4日期间全球AI领域最新动态，共**15条**重要新闻，覆盖5大分类。",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-04-ai-news.html"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "GitHub 趋势日报 | 2026-07-04",
+    "desc": "---",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-04-github-trending.html"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-03",
+    "desc": "Caveman原始人AI助手82k⭐省65%token费、Vibe-Trading AI量化交易17k⭐、video-use AI视频编辑14k⭐——今日三大精选开源项目",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-03-github-opensource.html"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "🤖 AI资讯精选 | 2026-07-03",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-02-ai-news.html"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "GitHub 趋势日报 | 2026-07-03",
+    "desc": "总计 30 个热门仓库（最近7天创建，⭐≥100，按星数排序）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-02-github-trending.html"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-02",
+    "desc": "CS-Fundamentals面试通关宝典1.3k⭐、sim-use让AI操控手机、webtoon-harness 27个Agent联手画漫画——今日三大精选开源项目",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-02-github-opensource.html"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-01",
+    "desc": "DeepSeek推测解码框架5k星爆发、终端BT下载神器torlink、CS面试通关宝典——今日三大精选开源项目",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-01-github-opensource.html"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-30-ai-news.html"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "GitHub 趋势日报 | 2026-07-01",
+    "desc": "总计 **30** 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-30-github-trending.html"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-30",
+    "desc": "百度Unlimited-OCR 12K Star爆发、DeepSeek投机解码框架、Cloudflare安全审计Agent技能——今日三大精选项目",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-30-github-opensource.html"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "🤖 AI资讯精选 | 2026-06-30",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-29-ai-news.html"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "GitHub 趋势日报 | 2026-06-30",
+    "desc": "总计 30 个热门仓库（近14天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-29-github-trending.html"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-28",
+    "desc": "DeepSeek投机解码框架1.2k星、Codex橙皮书持续霸榜、冷战突击C++源码开源——今日值得关注的三大项目",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-28-github-opensource.html"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-28",
+    "desc": "DeepSeek投机解码框架1.2k星、Codex橙皮书持续霸榜、冷战突击C++源码开源——今日值得关注的三大项目",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-28-github-opensource.html"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-27-ai-news.html"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "GitHub 趋势日报 | 2026-06-28",
+    "desc": "总计 **30** 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-27-github-trending.html"
+  },
+  {
+    "date": "2026-06-27",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-27",
+    "desc": "Codex橙皮书2100星领跑、Qwen AgentWorld多智能体新范式、Krea 2开源推理——AI Agent生态全面爆发",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-27-github-opensource.html"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "GitHub 趋势日报 | 2026-06-27",
+    "desc": "---",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-26-github-trending.html"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-26",
+    "desc": "Codex橙皮书1900星领跑、Qwen AgentWorld智能体新范式、Apple毛玻璃效果一键实现——AI Agent生态全面爆发",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-26-github-opensource.html"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "🤖 AI资讯精选 | 2026-06-26",
+    "desc": "OpenAI自研芯片Jalapeño发布、IBM纳米堆叠1000亿晶体管、Anthropic指控阿里2.88亿次蒸馏攻击——AI芯片竞赛全面升级",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-26-ai-news.html"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "📰 每日AI资讯简报 — 2026年6月26日（周五）",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-25-ai-news.html"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-26",
+    "desc": "Qwen AgentWorld开启智能体新范式、Codex橙皮书2000星领跑、Apple毛玻璃效果组件——AI Agent生态全面爆发",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-25-github-opensource.html"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "GitHub 趋势日报 | 2026-06-26",
+    "desc": "> 统计周期：2026-06-19 ~ 2026-06-26 | 数据来源：GitHub Search API | 门槛：⭐≥100",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-25-github-trending.html"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-24-ai-news.html"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "GitHub 趋势日报 | 2026-06-25",
+    "desc": "## 🤖 AI/机器学习",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-24-github-trending.html"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "🐙 GitHub 开源推荐 | 2026-06-24",
+    "desc": "百度祭出无限长文本OCR、AI Agent学会\"学徒制\"、Cloudflare把安全审计打包成技能——本周值得Star的项目来了",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-24-github-opensource.html"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "🤖 AI资讯精选 | 2026-06-24",
+    "desc": "> Hollywood向OpenAI低头，Meta推出无Ray-Ban版智能眼镜，Nvidia Rubin数据中心用液冷省水，Midjourney进军医疗影像引发争议",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-23-ai-news.html"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "GitHub 趋势日报 | 2026-06-24",
+    "desc": "总计 64 个热门仓库（近7天创建，⭐≥100），精选30个展示",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-23-github-trending.html"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "🚀 GitHub 开源精选 | 2026-06-23",
+    "desc": "Agent Apprenticeship（AI特工训练营）、Unlimited-OCR（百度开源不限长OCR）、Junction（VS Code AI总控台）——Agent生态与基础设施并进",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-23-github-opensource.html"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "🚀 GitHub 开源精选 | 2026-06-22",
+    "desc": "Vercel Eve（Agent框架）、WebKubernetes（浏览器K8s）、Anthropic Launch Your Agent —— 本周AI Agent基础设施全面爆发",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-22-github-opensource.html"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "🚀 GitHub 开源精选 | 2026-06-21",
+    "desc": "每周精选最值得关注的开源项目，帮你发现宝藏",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-21-github-opensource.html"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-20-ai-news.html"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "GitHub 趋势日报 | 2026-06-21",
+    "desc": "总计 30 个热门仓库（近 7 天内创建，⭐ ≥ 100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-20-github-trending.html"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "🤖 AI资讯精选 | 2026-06-20",
+    "desc": "> 今日AI领域：Anthropic大幅升级Claude Design、微博VibeThinker-3B挑战大模型范式、Adobe全面嵌入AI工作流、Z.ai开源模型以1/6成本超越GPT-5.5",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-19-ai-news.html"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "GitHub 趋势日报 | 2026-06-20",
+    "desc": "总计 **30** 个热门仓库（近7天创建，⭐ ≥ 100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-19-github-trending.html"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "🚀 GitHub 开源精选 | 2026-06-20",
+    "desc": "本周最值得关注的3个开源项目：vercel/eve (Vercel Agent框架)、tamnd/kage (离线网页快照)、loop-engineering-orange-book (Agent开发橙皮书)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-20-github-opensource.html"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "🚀 GitHub 开源精选 | 2026-06-19",
+    "desc": "本周最值得关注的3个开源项目：vercel/eve (Agent全栈框架)、tamnd/kage (去JS网页快照)、best-humanizer-handbook (AI写作去味指南)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-19-github-opensource.html"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "🤖 AI资讯精选 | 2026-06-19",
+    "desc": "> 今日AI圈：Arbor框架2.5倍超越Claude Code/Codex，Anthropic修复Claude Design\"吞Token\"问题，Weibo 3B模型挑战千亿参数大模型",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-18-ai-news.html"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "GitHub 趋势日报 | 2026-06-19",
+    "desc": "总计 30 个热门仓库（最近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-18-github-trending.html"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "🚀 GitHub 开源精选 | 2026-06-18",
+    "desc": "本周最值得关注的3个开源项目：ponytail (3万星AI编程哲学)、Open-Interface (开源桌面AI助手)、kage (去JS极简浏览器)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-18-github-opensource.html"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "🤖 AI资讯精选 | 2026-06-18",
+    "desc": "> Anthropic升级Claude Design、新浪微博VibeThinker-3B震惊学界、Z.ai发布开源GLM-5.2超越GPT-5.5、微软CEO警告AI产业空心化",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-17-ai-news.html"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "GitHub 趋势日报 | 2026-06-18",
+    "desc": "总计 16 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-17-github-trending.html"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "🤖 AI资讯精选 | 2026-06-17",
+    "desc": "> 科技巨头博弈、开源模型崛起、AI经济重塑行业格局",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-16-ai-news.html"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "GitHub 趋势日报 | 2026-06-17",
+    "desc": "总计 30 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-16-github-trending.html"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "🚀 GitHub 开源精选 | 2026-06-16",
+    "desc": "本周最值得关注的3个开源项目：ponytail (让AI Agent学会偷懒)、shadcn/improve (智能审计代码)、omnigent (统一Agent编排)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-16-github-opensource.html"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "🤖 AI资讯精选 | 2026-06-16",
+    "desc": "> Anthropic 模型遭美政府封禁、Google 搜索25年来首次改版、Sakana AI 推出超深度研究报告——AI 世界一日千里",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-15-ai-news.html"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "GitHub 趋势日报 | 2026-06-16",
+    "desc": "总计 30 个热门仓库（最近 7 天创建，⭐ ≥ 100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-15-github-trending.html"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "🚀 GitHub 开源精选 | 2026年6月15日",
+    "desc": "本周最值得关注的 3 个开源项目，个个实用 🛠️",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-15-github-opensource.html"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-14-ai-news.html"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "GitHub 趋势日报 | 2026-06-14",
+    "desc": "总计 **14** 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-14-github-trending.html"
+  },
+  {
+    "date": "2026-06-14",
+    "title": "🚀 GitHub 开源精选 | 2026-06-14",
+    "desc": "本周最值得关注的3个开源项目：Agent Skills (Google工程师出品)、Superpowers (22.7万星Agent框架)、Apple Container (苹果官方容器)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-14-github-opensource.html"
+  },
+  {
+    "date": "2026-06-13",
+    "title": "🚀 GitHub 开源精选 | 2026-06-13",
+    "desc": "本周最值得关注的3个开源项目：Superpowers (AI Agent技能框架)、Apple Container (苹果容器运行时)、PowerToys (微软效率神器)",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-13-github-opensource.html"
+  },
+  {
+    "date": "2026-06-13",
+    "title": "GitHub 趋势日报 | 2026-06-13",
+    "desc": "总计 **13** 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-13-github-trending.html"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "GitHub 趋势日报 | 2026-06-12",
+    "desc": "总计 **19** 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-12-github-trending.html"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "GitHub 趋势日报 | 2026-06-11 (周四)",
+    "desc": "> 📡 数据来源：GitHub Trending · 共 17 个热门仓库 · 更新于 07:32",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-11-github-trending.html"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-10-ai-news.html"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "GitHub 趋势日报 | 2026-06-10",
+    "desc": "---",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-10-github-trending.html"
+  },
   {
     "date": "2026-06-09",
     "title": "AI 日报上线！每日自动推送 AI 资讯与 GitHub 趋势",
@@ -288,7 +977,8 @@ const ARTICLES = [
     "tag": "公告",
     "tagType": "hot",
     "source": "AI 日报",
-    "sourceUrl": "#"
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-09-welcome.html"
   },
   {
     "date": "2026-06-09",
@@ -297,7 +987,8 @@ const ARTICLES = [
     "tag": "GitHub 趋势",
     "tagType": "trend",
     "source": "GitHub Trending",
-    "sourceUrl": "#"
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-06-09-trending.html"
   }
 ];
 

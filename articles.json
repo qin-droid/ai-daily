@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-09",
+    "title": "🐙 GitHub 开源推荐 | 2026年7月9日",
+    "desc": "今日精选 3 个项目：Riddle reMarkable日记、PocketJS嵌入式UI框架、Engram Claude Code科学学习",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-09-github-opensource.html"
+  },
+  {
     "date": "2026-07-08",
     "title": "🐙 GitHub 开源推荐 | 2026年7月8日",
     "desc": "今日精选 3 个项目：Knockoff过滤亚马逊山寨、Jacobian Lens窥视AI大脑、Pon让Python飞起来",
