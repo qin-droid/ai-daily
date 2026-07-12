@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-07-12",
+    "title": "🤖 每日AI资讯 | 2026-07-13",
+    "desc": "> OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-12-ai-news.html"
+  },
+  {
+    "date": "2026-07-12",
+    "title": "GitHub 趋势日报 | 2026-07-13",
+    "desc": "总计 30 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-12-github-trending.html"
+  },
+  {
+    "date": "2026-07-12",
     "title": "🐙 GitHub 开源推荐 | 2026年7月12日",
     "desc": "Scroll World 3D品牌世界、LingBot World v2 AI无限世界生成、Uninstally macOS卸载神器",
     "tag": "GitHub 开源推荐",

@@ -5,8 +5,22 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Sun, 12 Jul 2026 20:13:08 +0800</lastBuildDate>
+  <lastBuildDate>Sun, 12 Jul 2026 23:11:54 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🤖 每日AI资讯 | 2026-07-13</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</guid>
+    <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
+    <description>> OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-07-13</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-github-trending.html</guid>
+    <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
+    <description>总计 30 个热门仓库（近7天创建，⭐≥100）</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月12日</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-github-opensource.html</link>
@@ -132,20 +146,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-04-ai-news.html</guid>
     <pubDate>Sat, 04 Jul 2026 00:00:00 +0800</pubDate>
     <description>> 本期简报涵盖2026年6月30日至7月4日期间全球AI领域最新动态，共**15条**重要新闻，覆盖5大分类。</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-07-04</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-04-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-04-github-trending.html</guid>
-    <pubDate>Sat, 04 Jul 2026 00:00:00 +0800</pubDate>
-    <description>---</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026-07-03</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-03-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-03-github-opensource.html</guid>
-    <pubDate>Fri, 03 Jul 2026 00:00:00 +0800</pubDate>
-    <description>Caveman原始人AI助手82k⭐省65%token费、Vibe-Trading AI量化交易17k⭐、video-use AI视频编辑14k⭐——今日三大精选开源项目</description>
   </item>
 </channel>
 </rss>
