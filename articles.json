@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-07-13",
+    "title": "🤖 每日AI资讯简报 | 2026年7月14日",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-13-ai-news.html"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "GitHub 趋势日报 | 2026-07-14",
+    "desc": "总计 **30** 个热门仓库（近7天创建，⭐≥100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-13-github-trending.html"
+  },
+  {
+    "date": "2026-07-13",
     "title": "🐙 GitHub 开源推荐 | 2026年7月13日",
     "desc": "今日精选 3 个项目：Clodex IDE零信任AI编程环境、Three.js Object Sculptor图片转3D模型、拉片笔记AI电影分析工具",
     "tag": "GitHub 开源推荐",
