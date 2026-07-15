@@ -5,8 +5,28 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Wed, 15 Jul 2026 12:12:45 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-16</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-opensource.html</guid>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
+    <description>今日最火的3个开源项目：xAI 的 Rust 编码 Agent TUI、神奇的进程劫持库、Web 互动视频新格式</description>
+  </item>
+  <item>
+    <title>🤖 每日AI资讯简报 | 2026年7月16日</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-ai-news.html</guid>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>🔥 GitHub 趋势日报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-trending.html</guid>
+    <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
+    <description>**日期：2026-07-16（周四）**</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月15日</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-15-github-opensource.html</link>
@@ -61,7 +81,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</guid>
     <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
-    <description>> OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版</description>
+    <description>&gt; OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-07-13</title>
@@ -103,7 +123,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-09-github-trending.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-09-github-trending.html</guid>
     <pubDate>Thu, 09 Jul 2026 00:00:00 +0800</pubDate>
-    <description>> 总计 **30** 个热门仓库（近7天创建，⭐≥100）| 数据来源：GitHub Search API</description>
+    <description>&gt; 总计 **30** 个热门仓库（近7天创建，⭐≥100）| 数据来源：GitHub Search API</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月9日</title>
@@ -126,26 +146,6 @@
     <pubDate>Tue, 07 Jul 2026 00:00:00 +0800</pubDate>
     <description>---</description>
   </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-07-08</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-07-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-07-github-trending.html</guid>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0800</pubDate>
-    <description>> 数据来源：GitHub Search API (`created:>2026-07-01 stars:>=100`)，共 30 个热门仓库</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026年7月7日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-07-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-07-github-opensource.html</guid>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0800</pubDate>
-    <description>今日精选 3 个项目：DNSGlobe全局DNS检测、Codex-X桌面管理器、Chromeless零Chrome浏览器</description>
-  </item>
-  <item>
-    <title>📰 Daily AI News Briefing | 2026-07-07</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-06-ai-news.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-06-ai-news.html</guid>
-    <pubDate>Mon, 06 Jul 2026 00:00:00 +0800</pubDate>
-    <description>---</description>
-  </item>
+  <lastBuildDate>Thu, 16 Jul 2026 07:13:00 +0800</lastBuildDate>
 </channel>
 </rss>
