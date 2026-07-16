@@ -3,10 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🐙 GitHub 开源推荐 | 2026-07-16 · AI 日报</title>
-<link rel="stylesheet" href="../style.css">
+<title>🐙 GitHub 开源推荐 | 2026年7月16日 · AI 日报</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+:root { --bg: #f8f9fa; --card: #ffffff; --text: #1a1a2e; --text2: #6b7280; --border: #e5e7eb; --accent: #0d9488; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0a0f1a; --card: #111827; --text: #e5e7eb; --text2: #9ca3af; --border: #1f2937; --accent: #14b8a6; }
+}
 body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
 .container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
 .back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
@@ -14,7 +17,6 @@ body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); 
 h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
 .date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
 .content { font-size: 15px; }
-.content h1 { font-size: 24px; margin-top: 0; }
 .content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
 .content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
 .content p { margin-bottom: 16px; }
@@ -22,65 +24,65 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
 .content li { margin-bottom: 6px; }
 .content a { color: var(--accent); }
 .content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
-.content blockquote { border-left: 3px solid var(--accent); margin: 16px 0; padding: 4px 16px; color: var(--text2); }
-.content table { width: 100%; border-collapse: collapse; margin: 16px 0; }
-.content th, .content td { border: 1px solid var(--border); padding: 8px 12px; text-align: left; }
-.content th { background: var(--bg2); }
 </style>
 </head>
 <body>
 <div class="container">
   <a class="back" href="../">← 返回首页</a>
-  <h1>🐙 GitHub 开源推荐 | 2026-07-16</h1>
+  <h1>🐙 GitHub 开源推荐 | 2026年7月16日</h1>
   <div class="date">2026-07-16</div>
   <div class="content">
-<h1>🐙 GitHub 开源推荐 | 2026-07-16</h1>
-<blockquote>
-<p>今日最火的3个开源项目：xAI 的 Rust 编码 Agent TUI、神奇的进程劫持库、Web 互动视频新格式</p>
-</blockquote>
+<p>今日最火的3个开源项目，带你发现最新好工具</p>
 <hr>
-<h2>⭐ 1. xai-org/grok-build — 1722⭐</h2>
-<p><strong>是什么</strong>：xAI 推出的 Rust 编写的编码 Agent TUI，支持全屏鼠标交互、可扩展插件架构，直接在终端里管理编码 Agent。</p>
-<p><strong>适用场景</strong>：</p>
+
+<h2>1️⃣ Grok Build — xAI 的 Rust 编码 Agent TUI</h2>
+<p><strong>⭐ 1.7k Stars | 🛠️ Rust | 📜 Apache 2.0</strong><br>
+🔗 <a href="https://github.com/xai-org/grok-build">https://github.com/xai-org/grok-build</a></p>
+<p><strong>它是什么？</strong><br>
+xAI（埃隆·马斯克的 AI 公司）开源的终端编码 Agent。运行起来是一个全屏 TUI 界面，能理解你的代码库、编辑文件、执行命令、搜网页、管理长任务——交互式、无头脚本、甚至嵌入编辑器都行。</p>
+<p><strong>为什么值得关注？</strong></p>
 <ul>
-<li>开发者需要在终端内高效地启动、监控、切换多个 Agent 工作流</li>
-<li>想要一个轻量、高性能的编码助手 TUI，无需打开浏览器 IDE</li>
+<li>🚀 <strong>xAI 出品</strong>：背靠 SpaceXAI，和 Grok 模型深度整合</li>
+<li>🦀 <strong>全 Rust 编写</strong>：性能极致，跨平台（Mac/Linux/Windows）</li>
+<li>🎮 <strong>全屏 TUI 体验</strong>：鼠标交互、全键盘操作，终端党狂喜</li>
+<li>🔌 <strong>ACP 协议</strong>：支持 Agent Client Protocol，可嵌入 VS Code 等 IDE</li>
 </ul>
-<p><strong>为什么值得关注</strong>：来自 xAI 官方团队，Rust 写的性能极佳，全屏交互体验丝滑，可扩展架构意味着社区可以开发各种插件。</p>
-<p>🔗 <a href="https://github.com/xai-org/grok-build">GitHub 仓库</a></p>
+<p><strong>适合谁？</strong> 命令行重度用户、AI 编码工具爱好者、想体验 Grok 模型编码能力的开发者。</p>
+
 <hr>
-<h2>⭐ 2. littledivy/mimic — 1010⭐</h2>
-<p><strong>是什么</strong>：一个 Python 库，可以拦截任意应用程序的调用，让你像调用 Python 函数一样在代码中使用它——堪称"进程劫持黑魔法"。</p>
-<p><strong>适用场景</strong>：</p>
+
+<h2>2️⃣ gpt-5.6-instruct — GPT-5.6 红队安全测试包</h2>
+<p><strong>⭐ 1.3k Stars | 🛠️ Python | 📜 MIT</strong><br>
+🔗 <a href="https://github.com/MDX-Tom/gpt-5.6-instruct">https://github.com/MDX-Tom/gpt-5.6-instruct</a></p>
+<p><strong>它是什么？</strong><br>
+针对 OpenAI GPT-5.6 Sol 模型的 Codex CLI 越狱提示词与红队测试包。包含精心设计的"破甲"提示词、部署脚本、360 条测试用例和全面的评测报告——在 low/medium/high 三档测试中均达到 120/120 通过率。</p>
+<p><strong>为什么值得关注？</strong></p>
 <ul>
-<li>想用 Python 直接控制一个 GUI 应用，而不需要它的 API</li>
-<li>自动化测试中需要劫持/模拟某个进程的行为</li>
+<li>🔬 <strong>AI 安全研究的活教材</strong>：展示了如何系统性地测试大模型安全边界</li>
+<li>📊 <strong>数据说话</strong>：60+ 页测试报告，横向对比 GPT-5.4/5.5/5.6 各版本安全表现</li>
+<li>🛠️ <strong>即开即用</strong>：一行命令部署提示词，交互式菜单选择版本</li>
+<li>📝 <strong>MIT 协议</strong>：完全开源，可自由使用和研究</li>
 </ul>
-<p><strong>为什么值得关注</strong>：1000+ 星一周内拿下，思路非常新颖——不是传统的 API 封装，而是真正的进程级拦截，对自动化工程师和逆向开发者来说是神器级别的工具。</p>
-<p>🔗 <a href="https://github.com/littledivy/mimic">GitHub 仓库</a></p>
+<p><strong>适合谁？</strong> AI 安全研究员、大模型红队测试从业者、想了解 GPT-5.6 安全能力的技术爱好者。</p>
+
 <hr>
-<h2>⭐ 3. pixel-point/aval — 474⭐</h2>
-<p><strong>是什么</strong>：一种新的 Web 互动视频开放格式。内置状态机、帧精确过渡，让视频不只是"播放"，而是可以交互、分支、响应用户操作。</p>
-<p><strong>适用场景</strong>：</p>
+
+<h2>3️⃣ AVAL — Web 互动视频新格式</h2>
+<p><strong>⭐ 474 Stars | 🛠️ TypeScript | 📜 待确认</strong><br>
+🔗 <a href="https://github.com/pixel-point/aval">https://github.com/pixel-point/aval</a></p>
+<p><strong>它是什么？</strong><br>
+一种全新的 Web 专属动画格式和运行时。核心思路是把"视频帧"变成"可独立解码的运动单元"，再配合一个小型状态机——用户悬停、点击、聚焦等操作不再是"跳到某时间点"，而是"状态机切换路线"。比 GIF 流畅、比视频灵活、不依赖视频播放器。</p>
+<p><strong>为什么值得关注？</strong></p>
 <ul>
-<li>制作互动教学视频（点击不同选项进入不同分支）</li>
-<li>产品演示中嵌入可点击跳转的交互环节</li>
-<li>游戏化内容营销</li>
+<li>🌐 <strong>Web 原生</strong>：纯前端格式，不依赖视频编码器，SSR 安全</li>
+<li>⚡ <strong>帧精确过渡</strong>：内置状态机，可实现悬停、聚焦等交互动画</li>
+<li>📦 <strong>npm 即装即用</strong>：<code>npm install @pixel-point/aval-element</code> 即可使用</li>
+<li>🎨 <strong>轻量级</strong>：比 Lottie 更轻，比 MP4 更灵活</li>
 </ul>
-<p><strong>为什么值得关注</strong>：视频领域的 Markdown 级别创新——就像 Markdown 简化了 HTML 写作一样，Aval 格式简化了交互式视频的制作。TypeScript 原生支持，对前端开发者非常友好。</p>
-<p>🔗 <a href="https://github.com/pixel-point/aval">GitHub 仓库</a></p>
+<p><strong>适合谁？</strong> 前端开发者、UI/UX 设计师、想做高质量网页动效但不想用 GIF 或视频的人。</p>
+
 <hr>
-<h2>📊 今日关键词</h2>
-<table>
-<thead><tr><th>方向</th><th>热度</th><th>趋势说明</th></tr></thead>
-<tbody>
-<tr><td>🤖 AI 编码 Agent</td><td>🔥🔥🔥</td><td>xAI、Codex 生态项目全面爆发</td></tr>
-<tr><td>⚙️ 进程/系统工具</td><td>🔥🔥</td><td>反向思维工具（拦截/劫持）开始流行</td></tr>
-<tr><td>🎬 视频新技术</td><td>🔥🔥</td><td>Web 互动视频格式标准化趋势</td></tr>
-</tbody>
-</table>
-<hr>
-<p><em>由 Hermes Agent 自动生成 · 2026-07-16</em></p>
+<p><em>由 Hermes Agent 自动生成 | 2026-07-16</em></p>
   </div>
   <a class="back" href="../">← 返回首页</a>
 </div>
