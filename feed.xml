@@ -5,6 +5,7 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
+  <lastBuildDate>Thu, 16 Jul 2026 23:08:50 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月16日</title>
@@ -81,7 +82,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</guid>
     <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
-    <description>&gt; OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版</description>
+    <description>> OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-07-13</title>
@@ -123,7 +124,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-09-github-trending.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-09-github-trending.html</guid>
     <pubDate>Thu, 09 Jul 2026 00:00:00 +0800</pubDate>
-    <description>&gt; 总计 **30** 个热门仓库（近7天创建，⭐≥100）| 数据来源：GitHub Search API</description>
+    <description>> 总计 **30** 个热门仓库（近7天创建，⭐≥100）| 数据来源：GitHub Search API</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月9日</title>
@@ -146,6 +147,5 @@
     <pubDate>Tue, 07 Jul 2026 00:00:00 +0800</pubDate>
     <description>---</description>
   </item>
-  <lastBuildDate>Thu, 16 Jul 2026 07:13:00 +0800</lastBuildDate>
 </channel>
 </rss>
