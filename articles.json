@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-07-18",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-18",
+    "desc": "xAI开源Grok Build编程Agent终端框架狂揽1.6万星；littledivy/mimic拦截应用变Python库；pixel-point/aval开创Web交互视频新格式",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-18-github-opensource.html"
+  },
+  {
+    "date": "2026-07-17",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-17-ai-news.html"
+  },
+  {
+    "date": "2026-07-17",
+    "title": "GitHub 趋势日报 | 2026-07-18",
+    "desc": "> 📊 数据来源：GitHub Search API（`created:>2026-07-11 stars:>=100`） | 统计区间：最近7天创建 | 总计 **30** 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-17-github-trending.html"
+  },
+  {
     "date": "2026-07-17",
     "title": "🐙 GitHub 开源推荐 | 2026年7月17日",
     "desc": "今日精选 3 个项目：Codex Dream Skin 8k星换肤、Wardrobe AI衣柜管家、beautify-github-readme README美化",

@@ -5,8 +5,29 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Fri, 17 Jul 2026 20:00:00 +0800</lastBuildDate>
+  <lastBuildDate>Sat, 18 Jul 2026 07:10:00 +0800</lastBuildDate>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-18</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-18-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-18-github-opensource.html</guid>
+    <pubDate>Sat, 18 Jul 2026 00:00:00 +0800</pubDate>
+    <description>xAI开源Grok Build编程Agent终端框架狂揽1.6万星；littledivy/mimic拦截应用变Python库；pixel-point/aval开创Web交互视频新格式</description>
+  </item>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>📰 每日AI资讯简报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-ai-news.html</guid>
+    <pubDate>Fri, 17 Jul 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-07-18</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-github-trending.html</guid>
+    <pubDate>Fri, 17 Jul 2026 00:00:00 +0800</pubDate>
+    <description>> 📊 数据来源：GitHub Search API（`created:>2026-07-11 stars:>=100`） | 统计区间：最近7天创建 | 总计 **30** 个热门仓库</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月17日</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-github-opensource.html</link>
@@ -132,27 +153,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-09-github-trending.html</guid>
     <pubDate>Thu, 09 Jul 2026 00:00:00 +0800</pubDate>
     <description>> 总计 **30** 个热门仓库（近7天创建，⭐≥100）| 数据来源：GitHub Search API</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026年7月9日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-09-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-09-github-opensource.html</guid>
-    <pubDate>Thu, 09 Jul 2026 00:00:00 +0800</pubDate>
-    <description>今日精选 3 个项目：Riddle reMarkable日记、PocketJS嵌入式UI框架、Engram Claude Code科学学习</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026年7月8日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-08-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-08-github-opensource.html</guid>
-    <pubDate>Wed, 08 Jul 2026 00:00:00 +0800</pubDate>
-    <description>今日精选 3 个项目：Knockoff过滤亚马逊山寨、Jacobian Lens窥视AI大脑、Pon让Python飞起来</description>
-  </item>
-  <item>
-    <title>🤖 每日AI资讯简报 — 2026年7月8日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-07-ai-news.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-07-ai-news.html</guid>
-    <pubDate>Tue, 07 Jul 2026 00:00:00 +0800</pubDate>
-    <description>---</description>
   </item>
 </channel>
 </rss>
