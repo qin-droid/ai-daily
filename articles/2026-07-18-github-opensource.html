@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>🐙 GitHub 开源推荐 | 2026-07-18 · AI 日报</title>
+<title>🐙 GitHub 开源推荐（晚间版）| 2026-07-18 · AI 日报</title>
 <link rel="stylesheet" href="../style.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -28,42 +28,42 @@ h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
 <body>
 <div class="container">
   <a class="back" href="../">← 返回首页</a>
-  <h1>🐙 GitHub 开源推荐 | 2026-07-18</h1>
+  <h1>🐙 GitHub 开源推荐（晚间版）| 2026-07-18</h1>
   <div class="date">2026-07-18</div>
   <div class="content">
   <blockquote>
-  本期从30个热门新项目中精选3个值得深度关注的宝藏项目：xAI的编程Agent终端宇宙、把任意应用变Python库的黑科技、以及新一代Web交互视频格式！
+  今晚精选3个宝藏项目：AI编程Agent的"记忆外挂"、简洁无广告的终端视频下载、以及AI一键生成交互式演示文稿！
   </blockquote>
 
-  <h2>⭐ 1. xai-org/grok-build</h2>
-  <p><strong>全栈AI编程Agent终端框架</strong> — 本周最热项目，3天狂揽1.6万星！</p>
-  <p>xAI（Elon Musk的AI公司）开源的 <code>grok-build</code> 是一个<strong>全屏交互式TUI框架</strong>，专为AI编程Agent打造。它提供了丰富的终端用户界面组件，让AI Agent能在终端中以更直观的方式与开发者交互——代码编辑、文件浏览、命令执行一气呵成。</p>
-  <p><strong>为什么值得关注</strong>：xAI正在构建完整的开发者工具生态，grok-build对标Anthropic的Codex CLI但更注重终端体验。用Rust编写，性能极强，可扩展架构支持自定义插件。</p>
-  <p>🔗 <a href="https://github.com/xai-org/grok-build">https://github.com/xai-org/grok-build</a><br>
-  🛠️ Rust | ⭐ 16,320</p>
+  <h2>⭐ 1. vshulcz/deja-vu</h2>
+  <p><strong>AI编程Agent的"记忆层"</strong> — 让AI编程助手记住你是谁、你做过什么。⭐ 334 | Go</p>
+  <p><code>deja-vu</code> 给Claude Code、Codex、Cursor等AI编程Agent装上一个<strong>记忆层</strong>：自动搜索历史、通过MCP协议召回、自动注入上下文、还能对敏感信息做脱敏处理。用Go编写，轻量快速，不拖慢你的AI助手。</p>
+  <p><strong>为什么值得关注</strong>：AI编程Agent越来越强，但最大的短板就是"记不住"。deja-vu补上了这块拼图——让你不再重复告诉AI"我刚才做了什么"。</p>
+  <p>🔗 <a href="https://github.com/vshulcz/deja-vu">https://github.com/vshulcz/deja-vu</a><br>
+  🛠️ Go | ⭐ 334</p>
 
   <hr>
 
-  <h2>⭐ 2. littledivy/mimic</h2>
-  <p><strong>拦截任意应用，像调用Python库一样使用它</strong> — 黑科技级别的进程间通信！</p>
-  <p><code>mimic</code> 是本周Python领域最大亮点。它能拦截一个正在运行的应用程序，然后让你像调用Python函数一样从脚本中操控它——读取数据、触发操作、获取结果。</p>
-  <p><strong>应用场景</strong>：想用Python自动化操作某个没有API的桌面应用？mimic直接搞定。从数据提取到自动化工作流，把任何GUI程序变成你的函数库。</p>
-  <p>🔗 <a href="https://github.com/littledivy/mimic">https://github.com/littledivy/mimic</a><br>
-  🐍 Python | ⭐ 1,148</p>
+  <h2>⭐ 2. pablostanley/yoinks</h2>
+  <p><strong>终端里的视频下载神器</strong> — 没有广告、没有套路、一键下载视频。⭐ 404 | TypeScript</p>
+  <p><code>yoinks</code> 走的是极简风：一个终端命令搞定视频下载，支持YouTube、Twitter等常见平台。没有花哨的UI，没有广告，只有干净利落的下载体验。特别适合习惯命令行的开发者和需要批量下载的用户。</p>
+  <p><strong>为什么值得关注</strong>：在"每个工具都想赚你钱"的时代，yoinks保持了开源工具的纯粹——下载就是下载，仅此而已。</p>
+  <p>🔗 <a href="https://github.com/pablostanley/yoinks">https://github.com/pablostanley/yoinks</a><br>
+  🛠️ TypeScript | ⭐ 404</p>
 
   <hr>
 
-  <h2>⭐ 3. pixel-point/aval</h2>
-  <p><strong>Web交互视频新格式</strong> — 这才是下一代视频该有的样子！</p>
-  <p><code>aval</code>（Audio Video Assembly Language）是一种全新的Web交互视频格式。它内置状态机支持帧精确过渡，打包Alpha透明通道（RGBA视频），用TypeScript编写，适合在浏览器中创建可交互的视频内容。</p>
-  <p><strong>为什么值得关注</strong>：普通视频是线性的，aval让你创建分支式、交互式的视频体验。非常适合教程、产品演示、游戏叙事等需要用户参与的场景。</p>
-  <p>🔗 <a href="https://github.com/pixel-point/aval">https://github.com/pixel-point/aval</a><br>
-  🌐 TypeScript | ⭐ 1,161</p>
+  <h2>⭐ 3. stackblitz/bolt-slides</h2>
+  <p><strong>用AI Agent一键生成惊艳幻灯片</strong> — 不是套模板，而是从零生成交互式演示文稿。⭐ 299 | TypeScript</p>
+  <p>StackBlitz（bolt.new背后的公司）新作！<code>bolt-slides</code> 让你用任意AI Agent从文字描述生成<strong>真正的交互式演示文稿</strong>——包含动画、交互、响应式布局的Web幻灯片。给你的AI Agent一句"帮我做一个关于量子计算的科普PPT"，它就能给你一个可以直接演示的网页。</p>
+  <p><strong>为什么值得关注</strong>：传统PPT是静态的，bolt-slides生成的是交互式的。对于技术分享、产品演示、在线教育场景，体验直接拉满。</p>
+  <p>🔗 <a href="https://github.com/stackblitz/bolt-slides">https://github.com/stackblitz/bolt-slides</a><br>
+  🛠️ TypeScript | ⭐ 299</p>
 
   <hr>
 
-  <h2>📊 本周GitHub趋势关键词</h2>
-  <p><code>grok-build</code> <code>Codex生态</code> <code>AI编程Agent</code> <code>进程拦截</code> <code>Web交互视频</code></p>
+  <h2>📊 关键词</h2>
+  <p><code>AI Agent记忆</code> <code>终端下载</code> <code>AI生成幻灯片</code> <code>Go</code> <code>StackBlitz</code></p>
   </div>
   <a class="back" href="../">← 返回首页</a>
 </div>
