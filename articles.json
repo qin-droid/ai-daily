@@ -1,6 +1,36 @@
 [
   {
     "date": "2026-07-20",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-20-ai-news.html"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-21",
+    "desc": "马斯克xAI开源20k+星编码Agent grok-build、交互式视频Web新格式Aval、Python应用截获利器mimic",
+    "tag": "开源项目",
+    "tagType": "hot",
+    "source": "GitHub Trend",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-21-github-opensource.html"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "GitHub 趋势日报 | 2026-07-21",
+    "desc": "> 统计时段：2026-07-12 ~ 2026-07-20 | 总计 **50** 个热门仓库",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-20-github-trending.html"
+  },
+  {
+    "date": "2026-07-20",
     "title": "🐙 GitHub 开源推荐 | 2026-07-20",
     "desc": "AI把图片变3D模型img2threejs、Agent工程标准指南harness-engineering、Mac硬件一键验机MacCheck",
     "tag": "GitHub 开源推荐",

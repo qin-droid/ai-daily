@@ -2,150 +2,157 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
   <title>AI 日报</title>
-  <link>https://qin-droid.github.io/ai-daily/</link>
+  <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Mon, 20 Jul 2026 12:11:51 +0800</lastBuildDate>
-  <atom:link href="https://qin-droid.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <lastBuildDate>Tue, 21 Jul 2026 07:20:00 +0800</lastBuildDate>
+  <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>📰 每日AI资讯简报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-20-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-20-ai-news.html</guid>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-21</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-21-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-21-github-opensource.html</guid>
+    <pubDate>Tue, 21 Jul 2026 00:00:00 +0800</pubDate>
+    <description>马斯克xAI开源20k+星编码Agent grok-build、交互式视频Web新格式Aval、Python应用截获利器mimic</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-07-21</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-20-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-20-github-trending.html</guid>
+    <pubDate>Mon, 20 Jul 2026 00:00:00 +0800</pubDate>
+    <description>> 统计时段：2026-07-12 ~ 2026-07-20 | 总计 **50** 个热门仓库</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-07-20</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-20-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-20-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-20-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-20-github-opensource.html</guid>
     <pubDate>Mon, 20 Jul 2026 00:00:00 +0800</pubDate>
     <description>AI把图片变3D模型img2threejs、Agent工程标准指南harness-engineering、Mac硬件一键验机MacCheck</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-07-19</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-19-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-19-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-19-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-19-github-opensource.html</guid>
     <pubDate>Sun, 19 Jul 2026 00:00:00 +0800</pubDate>
     <description>LLM隐写术在对话中藏秘密、Agent万能操作系统、滚动鼠标穿越3D世界</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐（晚间版）| 2026-07-18</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-18-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-18-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-18-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-18-github-opensource.html</guid>
     <pubDate>Sat, 18 Jul 2026 00:00:00 +0800</pubDate>
     <description>AI编程Agent记忆层deja-vu、终端视频下载yoinks、StackBlitz AI幻灯片bolt-slides</description>
   </item>
   <item>
     <title>📰 每日AI资讯简报</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-17-ai-news.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-17-ai-news.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-ai-news.html</guid>
     <pubDate>Fri, 17 Jul 2026 00:00:00 +0800</pubDate>
     <description>---</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-07-18</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-17-github-trending.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-17-github-trending.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-github-trending.html</guid>
     <pubDate>Fri, 17 Jul 2026 00:00:00 +0800</pubDate>
     <description>> 📊 数据来源：GitHub Search API（`created:>2026-07-11 stars:>=100`） | 统计区间：最近7天创建 | 总计 **30** 个热门仓库</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月17日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-17-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-17-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-17-github-opensource.html</guid>
     <pubDate>Fri, 17 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日精选 3 个项目：Codex Dream Skin 8k星换肤、Wardrobe AI衣柜管家、beautify-github-readme README美化</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月16日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-16-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-16-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-opensource.html</guid>
     <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日精选 3 个项目：xAI Grok Build Rust 编码 Agent、GPT-5.6 红队安全测试包、AVAL Web 互动视频新格式</description>
   </item>
   <item>
     <title>🤖 每日AI资讯简报 | 2026年7月16日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-16-ai-news.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-16-ai-news.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-ai-news.html</guid>
     <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
     <description>---</description>
   </item>
   <item>
     <title>🔥 GitHub 趋势日报</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-16-github-trending.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-16-github-trending.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-trending.html</guid>
     <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
     <description>**日期：2026-07-16（周四）**</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月15日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-15-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-15-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-15-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-15-github-opensource.html</guid>
     <pubDate>Wed, 15 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日精选 3 个项目：gpt-5.6-instruct LLM安全测试、Three.js Object Sculptor图片转3D模型、Flawless AI智能运维代理</description>
   </item>
   <item>
     <title>📰 每日AI资讯简报</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-14-ai-news.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-14-ai-news.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-ai-news.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
     <description>---</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-07-15</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-14-github-trending.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-14-github-trending.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-trending.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
     <description>总计 **30** 个热门仓库（近7天创建，⭐≥100）</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月14日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-14-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-14-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-opensource.html</guid>
     <pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日精选 3 个项目：mimic用Python操控任意桌面应用、Mindwalk 3D代码地图回放AI编程、jzsub一键生成AI双语字幕MP4</description>
   </item>
   <item>
     <title>🤖 每日AI资讯简报 | 2026年7月14日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-13-ai-news.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-13-ai-news.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-ai-news.html</guid>
     <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
     <description>---</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-07-14</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-13-github-trending.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-13-github-trending.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-github-trending.html</guid>
     <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
     <description>总计 **30** 个热门仓库（近7天创建，⭐≥100）</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026年7月13日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-13-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-13-github-opensource.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-github-opensource.html</guid>
     <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日精选 3 个项目：Clodex IDE零信任AI编程环境、Three.js Object Sculptor图片转3D模型、拉片笔记AI电影分析工具</description>
   </item>
   <item>
     <title>🤖 每日AI资讯 | 2026-07-13</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-12-ai-news.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-12-ai-news.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</guid>
     <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
     <description>> OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-07-13</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-12-github-trending.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-12-github-trending.html</guid>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-github-trending.html</guid>
     <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
     <description>总计 30 个热门仓库（近7天创建，⭐≥100）</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026年7月12日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-12-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-12-github-opensource.html</guid>
-    <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
-    <description>Scroll World 3D品牌世界、LingBot World v2 AI无限世界生成、Uninstally macOS卸载神器</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026年7月11日</title>
-    <link>https://qin-droid.github.io/ai-daily/articles/2026-07-11-github-opensource.html</link>
-    <guid>https://qin-droid.github.io/ai-daily/articles/2026-07-11-github-opensource.html</guid>
-    <pubDate>Sat, 11 Jul 2026 00:00:00 +0800</pubDate>
-    <description>Texts-to-Transformer把聊天记录变AI模型、Pilotfish帮Claude Code省58%+ Token费、FableCut让AI Agent剪视频</description>
   </item>
 </channel>
 </rss>
