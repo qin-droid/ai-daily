@@ -5,7 +5,7 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-  <lastBuildDate>Tue, 21 Jul 2026 07:20:00 +0800</lastBuildDate>
+  <lastBuildDate>Tue, 21 Jul 2026 12:07:38 +0800</lastBuildDate>
   <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>📰 每日AI资讯简报</title>
@@ -19,7 +19,7 @@
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-21-github-opensource.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-21-github-opensource.html</guid>
     <pubDate>Tue, 21 Jul 2026 00:00:00 +0800</pubDate>
-    <description>马斯克xAI开源20k+星编码Agent grok-build、交互式视频Web新格式Aval、Python应用截获利器mimic</description>
+    <description>Agent操作系统AOS 4.9k星、AI供应链身份协议Machine Genome、无App手机实验Appless</description>
   </item>
   <item>
     <title>GitHub 趋势日报 | 2026-07-21</title>
@@ -146,13 +146,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-ai-news.html</guid>
     <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
     <description>> OpenAI推出ChatGPT Work企业级AI助手、SpaceX发布Grok 4.5打价格战、苹果起诉OpenAI窃取硬件机密、Google搜索25年来首次改版</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-07-13</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-12-github-trending.html</guid>
-    <pubDate>Sun, 12 Jul 2026 00:00:00 +0800</pubDate>
-    <description>总计 30 个热门仓库（近7天创建，⭐≥100）</description>
   </item>
 </channel>
 </rss>
