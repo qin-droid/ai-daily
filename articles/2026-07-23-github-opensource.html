@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐙 GitHub 开源推荐 | 2026-07-23 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.content blockquote { border-left: 3px solid var(--accent); margin: 16px 0; padding: 4px 16px; color: var(--text2); }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>🐙 GitHub 开源推荐 | 2026-07-23</h1>
+  <div class="date">2026-07-23</div>
+  <div class="content">
+  <p>今日值得关注的 3 个优质开源项目：AI 思考动画组件、Agent 上下文加速工具、开源 AI 编程助手。</p>
+
+  <hr>
+
+  <h2>⭐ 1. Jakubantalik/thinking-orbs — AI 思考动画组件，开源即爆火</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/Jakubantalik/thinking-orbs">https://github.com/Jakubantalik/thinking-orbs</a></p>
+  <p>一套专为 AI 聊天界面设计的"思考中"加载动画组件。提供六种动画状态、两种尺寸，自动适配亮色/暗色模式，一行代码即可嵌入任何 Web 应用。740 星证明了这个看似"小"的需求其实非常大——每个 AI 产品都需要好看的等待动画。</p>
+  <p><strong>适用场景</strong>: 开发 AI Chatbot、Agent 对话界面、AI 写作工具等需要展示"AI 正在思考"状态的产品。</p>
+  <p><strong>为什么值得关注</strong>: AI 产品体验的差异化往往在细节里。这套组件解决了"AI 回复等待时用户焦虑"这个高频痛点，用极简的动画提升了整个产品的品质感。</p>
+
+  <hr>
+
+  <h2>⭐ 2. yc-duan/fastctx — Agent 读代码快 10 倍的上下文加速器</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/yc-duan/fastctx">https://github.com/yc-duan/fastctx</a></p>
+  <p>用 Rust 编写的 AI Agent 上下文加速工具，作为 MCP 插件运行。能在几毫秒内提取代码仓库的关键信息，大幅减少 AI 的 token 消耗。AI 编程最大的瓶颈不是模型能力，而是"喂给 AI 什么信息"——fastctx 从源头解决了这个问题。</p>
+  <p><strong>适用场景</strong>: 使用 Claude Code、Codex 等 AI 编程工具时，让 AI 快速理解大型项目结构。</p>
+  <p><strong>为什么值得关注</strong>: 用 Rust 的极致性能把上下文准备时间降到毫秒级，这是 AI 编程工具链走向实用化的关键基础设施。</p>
+
+  <hr>
+
+  <h2>⭐ 3. KlaatAI/klaatcode — 开源 AI 编程助手，模型自由选择</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/KlaatAI/klaatcode">https://github.com/KlaatAI/klaatcode</a></p>
+  <p>开源的终端 AI 编程助手，支持 Claude、GPT、Gemini、DeepSeek 等多种模型。内置智能路由——根据任务类型自动选择性价比最高的模型，号称成本降低 10 倍。不绑定单一厂商，用户可以自由组合模型。</p>
+  <p><strong>适用场景</strong>: 开发者想在终端拥有类似 Claude Code 的体验，同时希望灵活控制成本和模型选择。</p>
+  <p><strong>为什么值得关注</strong>: AI 编程工具正从"垄断封闭"走向"开源多模型"，klaatcode 代表了这个趋势。小任务用便宜模型，复杂任务自动切强模型——钱包友好的设计很实用。</p>
+
+  <hr>
+
+  <h2>📊 本周 GitHub 趋势关键词</h2>
+  <p>本周热门项目集中在 <strong>AI Agent 工具链</strong>（fastctx、klaatcode）、<strong>AI UI/UX 组件</strong>（thinking-orbs）、<strong>AI 视频生成</strong>（pireel、video-shotcraft）三大方向，开发者生态正在从"大模型能力展示"转向"工具化、产品化和体验优化"的落地阶段。</p>
+  </div>
+  <a class="back" href="../">← 返回首页</a>
+</div>
+</body>
+</html>

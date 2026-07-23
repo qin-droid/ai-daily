@@ -5,7 +5,14 @@
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
   <language>zh-CN</language>
-    <item>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-23</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-23-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-23-github-opensource.html</guid>
+    <pubDate>Wed, 23 Jul 2026 00:00:00 +0800</pubDate>
+    <description>今日推荐：thinking-orbs AI思考动画组件、fastctx Agent上下文加速器、klaatcode开源AI编程助手</description>
+  </item>
+  <item>
     <title>🐙 GitHub 开源推荐 | 2026-07-22</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-22-github-opensource.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-22-github-opensource.html</guid>
