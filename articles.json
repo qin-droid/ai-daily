@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-07-24",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-24",
+    "desc": "今日推荐：吴恩达AI工作流openworker、Automattic Rust语法检查器harper、阿里开源代码审查open-code-review",
+    "tag": "GitHub 开源推荐",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-24-github-opensource.html"
+  },
+  {
     "date": "2026-07-23",
     "title": "🐙 GitHub 开源推荐 | 2026-07-23",
     "desc": "今日推荐：thinking-orbs AI思考动画组件、fastctx Agent上下文加速器、klaatcode开源AI编程助手",

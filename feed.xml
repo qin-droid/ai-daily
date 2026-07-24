@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-24</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-24-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-24-github-opensource.html</guid>
+    <pubDate>Thu, 24 Jul 2026 00:00:00 +0800</pubDate>
+    <description>今日推荐：吴恩达AI工作流openworker、Automattic Rust语法检查器harper、阿里开源代码审查open-code-review</description>
+  </item>
   <title>AI 日报</title>
   <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
   <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
