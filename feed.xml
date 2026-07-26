@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
+  <title>AI 日报</title>
+  <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
+  <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
+  <language>zh-CN</language>
+  <lastBuildDate>Mon, 27 Jul 2026 07:07:00 +0800</lastBuildDate>
+  <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>📰 每日AI资讯简报</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-26-ai-news.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-26-ai-news.html</guid>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 +0800</pubDate>
+    <description>---</description>
+  </item>
+  <item>
+    <title>GitHub 趋势日报 | 2026-07-27</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-26-github-trending.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-26-github-trending.html</guid>
+    <pubDate>Sun, 26 Jul 2026 00:00:00 +0800</pubDate>
+    <description>总计 **61** 个热门仓库（近7天创建，⭐ ≥ 100）</description>
+  </item>
+  <item>
+    <title>🐙 GitHub 开源推荐 | 2026-07-27</title>
+    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-27-github-opensource.html</link>
+    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-27-github-opensource.html</guid>
+    <pubDate>Mon, 27 Jul 2026 00:00:00 +0800</pubDate>
+    <description>今日推荐：开箱即用的AI Agent cindy、426-token永久记忆插件OptMem、Shell"后悔药"undo</description>
+  </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-07-26</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-26-github-opensource.html</link>
@@ -12,25 +39,21 @@
     <title>🐙 GitHub 开源推荐 | 2026-07-25</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-25-github-opensource.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-25-github-opensource.html</guid>
-    <pubDate>Fri, 25 Jul 2026 00:00:00 +0800</pubDate>
+    <pubDate>Sat, 25 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日推荐：AI视频制作技能包video-shotcraft、开源AI视频编辑器pireel、中文故事转手绘动画story-to-handdrawn-video</description>
   </item>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-07-24</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-24-github-opensource.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-24-github-opensource.html</guid>
-    <pubDate>Thu, 24 Jul 2026 00:00:00 +0800</pubDate>
+    <pubDate>Fri, 24 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日推荐：吴恩达AI工作流openworker、Automattic Rust语法检查器harper、阿里开源代码审查open-code-review</description>
   </item>
-  <title>AI 日报</title>
-  <link>https://AI-Daily-Bot.github.io/ai-daily/</link>
-  <description>每日 AI 资讯与 GitHub 趋势汇总，自动更新</description>
-  <language>zh-CN</language>
   <item>
     <title>🐙 GitHub 开源推荐 | 2026-07-23</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-23-github-opensource.html</link>
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-23-github-opensource.html</guid>
-    <pubDate>Wed, 23 Jul 2026 00:00:00 +0800</pubDate>
+    <pubDate>Thu, 23 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日推荐：thinking-orbs AI思考动画组件、fastctx Agent上下文加速器、klaatcode开源AI编程助手</description>
   </item>
   <item>
@@ -40,7 +63,6 @@
     <pubDate>Wed, 22 Jul 2026 00:00:00 +0800</pubDate>
     <description>今日推荐：Blaizzy/nativ Mac原生AI助手、handdraw-story-video手绘动画、vmodal_sdk_flutter AI搜索SDK</description>
   </item>
-  <atom:link href="https://AI-Daily-Bot.github.io/ai-daily/feed.xml" rel="self" type="application/rss+xml"/>
   <item>
     <title>📰 每日AI资讯简报</title>
     <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-21-ai-news.html</link>
@@ -131,55 +153,6 @@
     <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-ai-news.html</guid>
     <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
     <description>---</description>
-  </item>
-  <item>
-    <title>🔥 GitHub 趋势日报</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-16-github-trending.html</guid>
-    <pubDate>Thu, 16 Jul 2026 00:00:00 +0800</pubDate>
-    <description>**日期：2026-07-16（周四）**</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026年7月15日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-15-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-15-github-opensource.html</guid>
-    <pubDate>Wed, 15 Jul 2026 00:00:00 +0800</pubDate>
-    <description>今日精选 3 个项目：gpt-5.6-instruct LLM安全测试、Three.js Object Sculptor图片转3D模型、Flawless AI智能运维代理</description>
-  </item>
-  <item>
-    <title>📰 每日AI资讯简报</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-ai-news.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-ai-news.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
-    <description>---</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-07-15</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-trending.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
-    <description>总计 **30** 个热门仓库（近7天创建，⭐≥100）</description>
-  </item>
-  <item>
-    <title>🐙 GitHub 开源推荐 | 2026年7月14日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-opensource.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-14-github-opensource.html</guid>
-    <pubDate>Tue, 14 Jul 2026 00:00:00 +0800</pubDate>
-    <description>今日精选 3 个项目：mimic用Python操控任意桌面应用、Mindwalk 3D代码地图回放AI编程、jzsub一键生成AI双语字幕MP4</description>
-  </item>
-  <item>
-    <title>🤖 每日AI资讯简报 | 2026年7月14日</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-ai-news.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-ai-news.html</guid>
-    <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
-    <description>---</description>
-  </item>
-  <item>
-    <title>GitHub 趋势日报 | 2026-07-14</title>
-    <link>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-github-trending.html</link>
-    <guid>https://AI-Daily-Bot.github.io/ai-daily/articles/2026-07-13-github-trending.html</guid>
-    <pubDate>Mon, 13 Jul 2026 00:00:00 +0800</pubDate>
-    <description>总计 **30** 个热门仓库（近7天创建，⭐≥100）</description>
   </item>
 </channel>
 </rss>

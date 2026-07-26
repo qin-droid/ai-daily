@@ -1,6 +1,26 @@
 [
   {
     "date": "2026-07-26",
+    "title": "📰 每日AI资讯简报",
+    "desc": "---",
+    "tag": "AI 资讯",
+    "tagType": "hot",
+    "source": "AI 日报",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-26-ai-news.html"
+  },
+  {
+    "date": "2026-07-26",
+    "title": "GitHub 趋势日报 | 2026-07-27",
+    "desc": "总计 **61** 个热门仓库（近7天创建，⭐ ≥ 100）",
+    "tag": "GitHub 趋势",
+    "tagType": "trend",
+    "source": "GitHub Trending",
+    "sourceUrl": "#",
+    "contentUrl": "/articles/2026-07-26-github-trending.html"
+  },
+  {
+    "date": "2026-07-26",
     "title": "🐙 GitHub 开源推荐 | 2026-07-26",
     "desc": "今日推荐：8美元芯片跑AI大模型esp32-ai、AI文案人话引擎ai-copywriter、WebGL网页贴纸工坊sticker-forge",
     "tag": "GitHub 开源推荐",
@@ -980,63 +1000,13 @@
     "contentUrl": "/articles/2026-06-13-github-trending.html"
   },
   {
-    "date": "2026-06-12",
-    "title": "GitHub 趋势日报 | 2026-06-12",
-    "desc": "总计 **19** 个热门仓库",
-    "tag": "GitHub 趋势",
+    "date": "2026-07-27",
+    "title": "🐙 GitHub 开源推荐 | 2026-07-27",
+    "desc": "今日推荐：开箱即用的AI Agent cindy、426-token永久记忆插件OptMem、Shell\"后悔药\"undo",
+    "tag": "GitHub 开源推荐",
     "tagType": "trend",
     "source": "GitHub Trending",
     "sourceUrl": "#",
-    "contentUrl": "/articles/2026-06-12-github-trending.html"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "GitHub 趋势日报 | 2026-06-11 (周四)",
-    "desc": "> 📡 数据来源：GitHub Trending · 共 17 个热门仓库 · 更新于 07:32",
-    "tag": "GitHub 趋势",
-    "tagType": "trend",
-    "source": "GitHub Trending",
-    "sourceUrl": "#",
-    "contentUrl": "/articles/2026-06-11-github-trending.html"
-  },
-  {
-    "date": "2026-06-10",
-    "title": "📰 每日AI资讯简报",
-    "desc": "---",
-    "tag": "AI 资讯",
-    "tagType": "hot",
-    "source": "AI 日报",
-    "sourceUrl": "#",
-    "contentUrl": "/articles/2026-06-10-ai-news.html"
-  },
-  {
-    "date": "2026-06-10",
-    "title": "GitHub 趋势日报 | 2026-06-10",
-    "desc": "---",
-    "tag": "GitHub 趋势",
-    "tagType": "trend",
-    "source": "GitHub Trending",
-    "sourceUrl": "#",
-    "contentUrl": "/articles/2026-06-10-github-trending.html"
-  },
-  {
-    "date": "2026-06-09",
-    "title": "AI 日报上线！每日自动推送 AI 资讯与 GitHub 趋势",
-    "desc": "这是 AI 日报的第一期。从今天开始，每天 7:00 自动汇总全球 AI 新闻和 GitHub 热门项目，让你每天早上用 5 分钟掌握行业动态。",
-    "tag": "公告",
-    "tagType": "hot",
-    "source": "AI 日报",
-    "sourceUrl": "#",
-    "contentUrl": "/articles/2026-06-09-welcome.html"
-  },
-  {
-    "date": "2026-06-09",
-    "title": "GitHub 趋势：本周最值得关注的 10 个开源项目",
-    "desc": "从 AI 框架到开发者工具，精选本周 GitHub 趋势榜上最值得 Star 的项目，附一句话点评。",
-    "tag": "GitHub 趋势",
-    "tagType": "trend",
-    "source": "GitHub Trending",
-    "sourceUrl": "#",
-    "contentUrl": "/articles/2026-06-09-trending.html"
+    "contentUrl": "/articles/2026-07-27-github-opensource.html"
   }
 ]

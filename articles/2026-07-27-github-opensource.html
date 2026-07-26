@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐙 GitHub 开源推荐 | 2026-07-27 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.content blockquote { border-left: 3px solid var(--accent); margin: 16px 0; padding: 4px 16px; color: var(--text2); }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>🐙 GitHub 开源推荐 | 2026-07-27</h1>
+  <div class="date">2026-07-27</div>
+  <div class="content">
+  <p>今日推荐：开源开箱即用的AI Agent cindy、AI Agent永久记忆插件(仅426-token) OptMem、Go语言Shell操作撤销神器 undo。</p>
+
+  <hr>
+
+  <h2>⭐ 1. makecindy/cindy — 开箱即用的开源AI Agent</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/makecindy/cindy">https://github.com/makecindy/cindy</a></p>
+  <p><strong>🔥 418 Stars | TypeScript | MIT</strong></p>
+  <p>"Consider it done."——这是cindy的座右铭。它是一个真正开箱即用的AI Agent，不像其他框架需要漫长配置，装好就能用。中文介绍写得也很直接："想到，就能做到。开源、开箱即用的 AI Agent。" 在当前AI Agent框架普遍复杂化的趋势下，cindy选择了一条"用户友好"的路线，让每个人都能立刻拥有一个能执行任务的AI助手。</p>
+  <p><strong>适用场景</strong>: 个人AI助手快速搭建、自动化工作流、团队协作AI工具。</p>
+  <p><strong>为什么值得关注</strong>: 多数Agent框架门槛高得像编程竞赛，cindy则像一份"即食AI"，拿来就能用。它代表了Agent框架从"强大但难用"向"好用且够用"的转变方向。</p>
+
+  <hr>
+
+  <h2>⭐ 2. VictorTaelin/OptMem — 426个token实现AI永久记忆</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/VictorTaelin/OptMem">https://github.com/VictorTaelin/OptMem</a></p>
+  <p><strong>🔥 254 Stars | Python | MIT</strong></p>
+  <p>AI Agent的一个重要痛点就是"记不住"——每次对话都是全新的开始。这个项目用一个极其优雅的方案解决了这个问题：仅用426个token（相当于一段小文案的长度）、一个脚本，就能让AI Agent拥有永久记忆。即插即用，无需修改模型、无需复杂基础设施。在Token即成本的今天，426个token实现持久记忆堪称极致效率。</p>
+  <p><strong>适用场景</strong>: 长期运行的AI Agent、个人AI助手记忆持久化、低成本RAG实现。</p>
+  <p><strong>为什么值得关注</strong>: 记忆是AI Agent的核心能力之一。此方案在轻量级和有效性之间找到了罕见的平衡点——426个token能做到的事情，很多专用RAG方案用几千token都做不到。</p>
+
+  <hr>
+
+  <h2>⭐ 3. edaywalid/undo — 撤销上一条Shell命令的"后悔药"</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/edaywalid/undo">https://github.com/edaywalid/undo</a></p>
+  <p><strong>🔥 177 Stars | Go | MIT</strong></p>
+  <p>每个开发者都经历过这种时刻：输入<code>rm -rf /some/important/dir</code>并按回车的一瞬间，心脏停跳一拍。这个用Go写的<code>undo</code>命令能撤销上一条Shell命令对文件系统的所有影响——删除的文件、修改的内容、新建的目录，统统可以回滚。它不依赖文件系统快照，而是通过监控命令执行前后的文件系统变更来实现"时间旅行"。</p>
+  <p><strong>适用场景</strong>: 日常开发中的误操作恢复、Shell脚本调试、系统管理安全网。</p>
+  <p><strong>为什么值得关注</strong>: 它是每个开发者梦寐以求的"Ctrl+Z for the terminal"。如果你曾经因为rm -rf或误覆盖文件而手忙脚乱过，这个工具就是你的救命稻草。</p>
+
+  <hr>
+
+  <h2>📊 本周GitHub趋势关键词</h2>
+  <p>本周技术热点集中在三个方向：<strong>AI Agent工具链</strong>（从框架到记忆到工作台全面开花）、<strong>嵌入式AI</strong>（低成本设备上跑AI模型成为新趋势）、<strong>AI安全与监控</strong>（漏洞PoC和自动化监控工具需求旺盛）。开源社区正在从"展示Demo"转向"交付可用的日常工具"——这是一个健康的发展方向。</p>
+
+  <hr>
+
+  <p>📅 每日更新 · 关注最新AI与开源趋势<br>
+  数据来源：<a href="https://github.com/trending">GitHub Trending</a> · GitHub Search API</p>
+  <p><em>由 Hermes Agent 自动生成</em></p>
+  </div>
+</div>
+</body>
+</html>
