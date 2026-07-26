@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🐙 GitHub 开源推荐 | 2026-07-26 · AI 日报</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; padding: 0; margin: 0; }
+.container { max-width: 800px; margin: 0 auto; padding: 40px 24px; }
+.back { display: inline-block; color: var(--accent); text-decoration: none; margin-bottom: 24px; font-size: 14px; }
+.back:hover { text-decoration: underline; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+.date { color: var(--text2); font-size: 14px; margin-bottom: 32px; }
+.content { font-size: 15px; }
+.content h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; }
+.content h3 { font-size: 17px; margin-top: 24px; margin-bottom: 8px; }
+.content p { margin-bottom: 16px; }
+.content ul { margin-bottom: 16px; padding-left: 24px; }
+.content li { margin-bottom: 6px; }
+.content a { color: var(--accent); }
+.content hr { border: none; border-top: 1px solid var(--border); margin: 32px 0; }
+.content blockquote { border-left: 3px solid var(--accent); margin: 16px 0; padding: 4px 16px; color: var(--text2); }
+</style>
+</head>
+<body>
+<div class="container">
+  <a class="back" href="../">← 返回首页</a>
+  <h1>🐙 GitHub 开源推荐 | 2026-07-26</h1>
+  <div class="date">2026-07-26</div>
+  <div class="content">
+  <p>今日推荐：8美元芯片跑AI大模型 esp32-ai、AI文案"人话"引擎 ai-copywriter、WebGL网页贴纸工坊 sticker-forge。</p>
+
+  <hr>
+
+  <h2>⭐ 1. slvDev/esp32-ai — 在8块钱的单片机上跑2800万参数大模型</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/slvDev/esp32-ai">https://github.com/slvDev/esp32-ai</a></p>
+  <p><strong>🔥 1,105 Stars | 🐍 Python | 📜 MIT</strong></p>
+  <p>你敢信吗？一个售价只有 8 美元（约 50 元人民币）的 ESP32 单片机上，居然能跑一个 2800 万参数的语言模型！以前这种便宜芯片最多跑个 26 万参数的小模型，这个项目一下把体量提升了 100 倍。秘诀是用了 Google Gemma 的"逐层嵌入"技术，把大部分参数存在慢速闪存里，每次只取需要的那一点点，完全不联网、不依赖服务器。</p>
+  <p><strong>适用场景</strong>: 离线智能家居语音控制、低成本IoT设备对话、边缘AI教育实验。</p>
+  <p><strong>为什么值得关注</strong>: 如果把大模型跑在服务器上比作"开油车"，这个项目就是"骑自行车还装了个AI大脑"。它是"AI民主化"在硬件层面的极致体现——让最便宜的芯片也能拥有智能。</p>
+
+  <hr>
+
+  <h2>⭐ 2. mikiarlo3/ai-copywriter — 能写出"人话"的AI营销文案神器</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/mikiarlo3/ai-copywriter">https://github.com/mikiarlo3/ai-copywriter</a></p>
+  <p><strong>🔥 752 Stars | 🐍 Python | 📜 MIT</strong></p>
+  <p>大多数AI写出的文案一眼就能看出是AI写的——"助力企业高效赋能"、"解锁全新体验"……这种"AI味儿"让读者本能地跳过。而这个项目做了一件很聪明的事：它同时内置了两套能力——一套是懂人性的营销写作（从读者的真实感受出发写标题和文案），另一套是33种"去AI味"检测规则（自动剔除所有机器腔）。它只是一个 Markdown 文件，可以塞进任何 AI 助手里当技能用。</p>
+  <p><strong>适用场景</strong>: 产品文案、广告标题、App Store描述、邮件营销、社交媒体推广。</p>
+  <p><strong>为什么值得关注</strong>: 它不造轮子，而是把"好文案的底层逻辑"和"去AI味检查清单"打包成了一个可复用的技能。对做内容和营销的人来说，等于免费请了个高级文案+审稿人。</p>
+
+  <hr>
+
+  <h2>⭐ 3. CatsJuice/sticker-forge — 浏览器里的WebGL贴纸工坊</h2>
+  <p><strong>链接</strong>: <a href="https://github.com/CatsJuice/sticker-forge">https://github.com/CatsJuice/sticker-forge</a></p>
+  <p><strong>🔥 585 Stars | 🟨 JavaScript | 📜 MIT</strong></p>
+  <p>这是一个在网页里制作和玩耍贴纸的神奇项目。它用 WebGL 3D 技术模拟真实的贴纸触感——你可以打字、上传图片、调整大小、旋转，然后把贴纸"贴"到画布上，甚至还有"撕贴纸"的物理效果。所有渲染都在浏览器里完成，不依赖任何后端服务。整个项目就像一个无限画布的电子手账。</p>
+  <p><strong>适用场景</strong>: 设计师快速做 mood board、在线协作白板、电子手账/笔记装饰、品牌贴纸预览。</p>
+  <p><strong>为什么值得关注</strong>: 它把一个简单的"贴纸"概念用 WebGL 做到了极致——有质感、有物理、有趣味。证明了好创意 + 好技术 = 让人忍不住想玩的项目。</p>
+
+  <hr>
+
+  <h2>📊 本周开源趋势</h2>
+  <p>本周 GitHub 热门项目呈现出<strong>两极分化</strong>的趋势：一头是 AI 能力在"下沉"——从云端大模型跑到 8 美元的芯片上（esp32-ai）；另一头是 AI 在"提效"——把人类经验（文案方法论、设计触感）编码成 AI 可执行的技能包。这说明开发者社区不再满足于"AI 能做什么"，而是在思考"AI 怎么才能真正帮到我"。</p>
+  </div>
+  <a class="back" href="../">← 返回首页</a>
+</div>
+</body>
+</html>
